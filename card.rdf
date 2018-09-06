@@ -1,0 +1,33 @@
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:cert="http://www.w3.org/ns/auth/cert#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+	  
+	<foaf:PersonalProfileDocument rdf:about="">
+		<foaf:maker rdf:resource="https://michael.ravedoni.com/card#i"/>
+		<foaf:primaryTopic rdf:resource="https://michael.ravedoni.com/card#i"/>
+		<admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+		<admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+	</foaf:PersonalProfileDocument>
+	
+	<rdf:Description rdf:about="https://michael.ravedoni.com/card#i">
+		<cert:key rdf:parseType="Resource">
+			<rdf:type rdf:resource="http://www.w3.org/ns/auth/cert#RSAPublicKey"/>
+			<cert:exponent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65537</cert:exponent>
+			<cert:modulus rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">CB24ED85D64D794B69C701C186ACC059501E856000F661C93204D8380E07191C5C8B368D2AC32A428ACB970398664368DC2A867320220F755E99CA2EECDAE62E8D15FB58E1B76AE59CB7ACE8838394D59E7250B449176E51A494951A1C366C6217D8768D682DDE78DD4D55E613F8839CF275D4C8403743E7862601F3C49A6366E12BB8F498262C3C77DE19BCE40B32F89AE62C3780F5B6275BE337E2B3153AE2BA72A9975AE71AB724649497066B660FCF774B7543D980952D2E8586200EDA4158B014E75465D91ECF93EFC7AC170C11FC7246FC6DED79C37780000AC4E079F671FD4F207AD770809E0E2D7B0EF5493BEFE73544D8E1BE3DDDB52455C61391A1</cert:modulus>
+		</cert:key>
+</rdf:Description>
+
+<foaf:Person rdf:about="https://michael.ravedoni.com/card#i">
+	<foaf:name>Michael Ravedoni</foaf:name>
+	<foaf:title>M.</foaf:title>
+	<foaf:givenname>Michael</foaf:givenname>
+	<foaf:family_name>Ravedoni</foaf:family_name>
+	<foaf:nick>michaelravedoni</foaf:nick>
+	<foaf:mbox_sha1sum>cfcb6166e08c28bf78b8ff7f4c22f68c06865269</foaf:mbox_sha1sum>
+	<foaf:homepage rdf:resource="https://michaelravedoni.com"/>
+	
+</foaf:Person>
+</rdf:RDF>

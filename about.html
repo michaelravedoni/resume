@@ -1,0 +1,35 @@
+---
+layout: default
+title: About
+
+namespace: about
+permalink: /about/
+---
+
+<article id="content" class="uk-container uk-section">
+	<h1 property="schema:name">{% t menu.about %}</h1>
+	<div property="schema:description">
+		<div class="uk-card uk-card-default uk-grid-collapse uk-margin uk-grid" uk-grid="">
+			<div class="uk-card-media-left uk-cover-container uk-width-1-4@s">
+				<img rel="foaf:img" src="{{ site.site_url }}/images/profile-art.jpg" alt="Photo of Michael Ravedoni" uk-cover="" class="uk-cover" style="width: 200px;">
+				
+			</div>
+			<div class="uk-width-3-4@s">
+				<div class="uk-card-body">
+					<h3 class="uk-card-title">{% t about.heading.in_short %}</h3>
+					<p about="https://michael.ravedoni.com/#i">{% t about.text.in_short %}</p>
+				</div>
+			</div>
+		</div>
+		<h2 id="contact">{% t about.heading.contact %}</h2>
+		<p>{% t about.text.contact %} <span id="contact-accounts">{% t about.text.accounts %}</span></p>
+		<ul>
+			<li id="contact-email"><a href="mailto:michael.ravedoni&#64;gmail&#46;com" target="_blank" rel="noreferrer">michael.ravedoni&#64;gmail&#46;com</a></li>
+			<li><a href="https://github.com/michaelravedoni">GitHub</a> — code</li>
+		</ul>
+		<h2 id="michael-ravedoni-license">{% t about.heading.license %}</h2>
+		<p>{% t about.text.licence %} <a href="https://creativecommons.org/licenses/by/4.0/" title="View details of the license of this site, courtesy of Creative Commons.">Creative Commons Attribution 4.0 (CC BY 4.0) </a>.</p>
+		<h2 id="michael-ravedoni-com">{% t about.heading.about_site %}</h2>
+		<p>{% t about.text.about_site %}</p>
+	</div>
+</article>

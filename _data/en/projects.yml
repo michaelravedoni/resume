@@ -1,0 +1,26 @@
+# Projects
+# uncomment the urls if you wish to display them, and add your own URL
+
+# statathle
+- project: StatAthlé
+  role: Creator
+  duration: september 2014 &mdash; now
+  url: "https://github.com/michaelravedoni/statathle"
+  image: statathle.png
+  description: A web application for sports results statistics of athletic clubs and institutions. It displays results and records by athletes, categories, competitions and disciplines. Statistics can also be produced.
+
+# Template for a Documentation page of CDA services with the user in mind
+- project: Template for a Documentation page of CDA services with the user in mind
+  role: Participant
+  duration: june 2017
+  url: "https://twiki.cern.ch/twiki/bin/view/CDAgroup/CDAPublicDocTemplate"
+  image: cern-it-cda-mockup.png
+  description: Template proposition for the CERN-IT-CDA service documentation. The objective is to focus on the service and not on the organisational structure. Please scroll down for mock-up snapshots add comments in the dedicated field.
+
+# ConfederAl
+- project: UI/UX Design - ConfederAl
+  role: Creator
+  duration: 2017
+  url: "https://confederal.ch/"
+  image: confederal.png
+  description: UI / UX Design for a website about politics. The user was placed, from the design stage, in the center of the design. In accordance with the wish of departure, it remains sober and serious.

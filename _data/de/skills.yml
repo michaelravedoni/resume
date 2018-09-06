@@ -1,0 +1,24 @@
+# Skills
+# Architecture de l'information
+- skill: Informationsarchitektur
+  description: 
+  level: 60
+  
+# UX/UI Design
+- skill: UX & UI Design
+  description: 
+  level: 50
+
+# Web developpment et technologies web
+ 
+- skill: HTML5, CSS3, SASS & LESS
+  description:
+  level: 85
+
+- skill: Javascript, jQuery
+  description:
+  level: 40
+
+- skill: PHP, SQL, Python, git
+  description:
+  level: 40

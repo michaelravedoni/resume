@@ -1,0 +1,59 @@
+<nav class="uk-navbar-container at-navbar">
+	<div class="uk-container">
+		<div class="uk-navbar">
+			<div class="uk-navbar-left">
+
+				<a class="uk-navbar-item uk-logo uk-visible@s" href="/">Michael Ravedoni</a>
+				<a class="uk-navbar-item uk-logo uk-hidden@s" href="/">MR</a>
+
+				<ul class="uk-navbar-nav uk-visible@m">
+					<li><a href="{% tl cv %}" title="Michael Ravedoni’s Curriculum Vitae">CV</a></li>
+					<li><a href="{% tl profile %}" title="About Michael Ravedoni">{% t menu.profile %}</a></li>
+					<li><a href="{% tl projects %}" title="Michael’s projects">{% t menu.projects %}</a></li>
+					<li><a href="{% tl about %}" title="About">{% t menu.about %}</a></li>
+				</ul>
+			</div>
+			<div class="uk-navbar-right">
+				<ul class="uk-navbar-nav uk-visible@m">
+					<li><a href="{{site.baseurl_root}}{{page.url}}" title="En français">FR</a></li>
+					<li><a href="{{site.baseurl_root}}/de{{page.url}}" title="Auf Deutsch">DE</a></li>
+					<li><a href="{{site.baseurl_root}}/en{{page.url}}" title="In english">EN</a></li>
+				</ul>
+				<ul class="uk-navbar-nav uk-hidden@m">
+					<li><a class="uk-navbar-item" type="button" uk-toggle="target: #offcanvas-slide"><i class="fa fas fa-lg fa-bars"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<div id="offcanvas-slide" uk-offcanvas="flip: true" class="uk-offcanvas">
+	<div class="uk-offcanvas-bar uk-flex uk-flex-column uk-text-center">
+		<button class="uk-offcanvas-close uk-close-large uk-close uk-icon" type="button" uk-close></button>
+
+		<ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical uk-nav-parent-icon" uk-nav="">
+			<li><a href="{% tl cv %}" title="Michael Ravedoni’s Curriculum Vitae">CV</a></li>
+			<li><a href="{% tl profile %}" title="About Michael Ravedoni">{% t menu.profile %}</a></li>
+			<li><a href="{% tl projects %}" title="Michael’s projects">{% t menu.projects %}</a></li>
+			<li><a href="{% tl about %}" title="About">{% t menu.about %}</a></li>
+			<li class="uk-nav-divider"></li>
+			<li>
+				<a href="{{site.baseurl_root}}{{page.url}}" title="En français">FR</a>
+				<a href="{{site.baseurl_root}}/de{{page.url}}" title="Auf Deutsch">DE</a>
+				<a href="{{site.baseurl_root}}/en{{page.url}}" title="In english">EN</a>
+			</li>
+		</ul>
+
+		<div>
+			<div class="uk-grid-small uk-child-width-auto uk-flex-inline uk-grid" uk-grid="">
+				<div>
+					<a class="uk-icon-button uk-icon" href="{{ site.resume_contact_email }}" uk-icon="icon: mail"></a>
+				</div>
+				<div>
+					<a class="uk-icon-button uk-icon" href="https://github.com/michaelravedoni" uk-icon="icon: github"></a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>

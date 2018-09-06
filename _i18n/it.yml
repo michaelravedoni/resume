@@ -1,0 +1,48 @@
+# it
+header:
+  contact_me: Me contacter
+  looking_work_now: Je ne cherche pas de travail en ce moment
+
+headings:
+  about: À propos de moi
+  experience: Expériences
+  formation: Formation
+  projects: Projets
+  associations: Associations
+  basic_information: Informations de base
+  skills: Skills
+  testimonials: Témoignages
+  recognitions: Distinctions
+  languages: Langues
+  links: Liens
+
+text:
+  more_linkedin: Plus sur LinkedIn
+  to_project: Vers le projet
+  more: En savoir plus
+
+menu:
+  about: About
+  publications: Publicationi
+
+publications:
+  description: "Vous trouverez toutes mes publications, mes projets et mes créations textuelles ci-après."
+  heading:
+    projects: Projets
+    blog: Papers
+    papers: Papers
+  text:
+    numendil: "Mon carnet de note personnel, projets et idées"
+    blog: Professional blog and papers on libraries
+    confederal: Un'altra politica è possibile. Confederal offre semplici decifrazioni con una visione alternativa del panorama politico svizzero.
+
+about:
+  heading:
+    contact: Contact
+    in_short: En bref
+    about_site: À propos de ce site
+    license: License
+  text:
+    in_short: "J'aime travailler avec les technologies Web ouvertes et libres. Je suis fasciné par la manière dont la technologie change le monde et par la façon dont l'interaction humain-machine change notre comportement. Parallélement, je m'intéresse aux nouveaux outils de gouvernance partagée et à l'économie collaborative qui va bientôt bouleverser nos modes de fonctionnement. J'espère pouvoir vivre un jour l'utopie d'un société libre, basée sur l'économie pair à pair, composée de petite communautés locales reliées entre elles par le web et des liens fraternels."
+    contact: "Quelque chose à dire ou à demander? Utilisez les pouvoirs de l'autoroute de l'information pour me contacter !"
+    accounts: "Vous pouvez me trouver sur une variété de sites Web sociaux; mon nom d'utilisateur est habituellement \"michaelravedoni\". Alphabétiquement:"

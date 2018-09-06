@@ -1,0 +1,42 @@
+# Jobs
+# CHUV
+
+- company: CHUV | Lausanne University Hospital
+  position: Intern
+  duration: june 2017 &mdash; august 2017
+  summary: <ul><li>Update of the information architecture of the news section of the IUMSP website on Drupal [<a href="https://www.iumsp.ch/actualites-agenda" target="_blank">see</a>]</li><li>Internationalization (i18n) [<a href="https://github.com/openillink-project/openillink/commit/f21e86df3f99249c5449b714a3d3c82cd02d8e5d">see</a>] and design of a new visual with Bulma [<a href="https://github.com/michaelravedoni/openillink/tree/master-flat-design" target="_blank">see</a>] of the OpenSource tool <i><a href="https://github.com/openillink-project/openillink">OpenILLink</a></i> used by the University Library of Medicine (<a href="https://bium.ch" target="_blank">BiUM</a>).</li></ul>
+  icon: code
+  url: 
+
+# CERN
+- company: CERN
+  position: Intern
+  duration: july 2017
+  summary: <p>Contribution to the project <i><a href="https://twiki.cern.ch/twiki/bin/view/CDAgroup/CDAPublicDocTemplate" target="_blank">Documentation page of CDA services with the user in mind</a></i> :</p><ul><li>Template creation for a standard documentation page. Template taken as a basis for work by the project group [<a href="https://app.moqups.com/ravemiki@gmail.com/KNKLrm3VZl/view/page/a099c991c" target="_blank">see</a>]</li><li>Proposal for a new structure for the <a href="http://information-technology.web.cern.ch/" target="_blank">CERN-IT website</a> [<a href="https://twiki.cern.ch/twiki/pub/CDAgroup/CDAPublicDocTemplate/Michael_Ravedoni-CERN-IT-web-Structure-proposal-v.2.pdf" target="_blank">see</a>]</li></ul>
+  icon: flask
+  url: ""
+
+# Banque cantonale du Valais (BCVs | WKB)
+- company: Cantonal Bank of Valais (BCVs | WKB)
+  position: Summer intern
+  duration: june 2016 &mdash; july 2016
+  summary: 
+  icon: university
+  url: 
+
+# Archives de l'État du Valais
+- company: State Archives of Valais
+  position: Intern
+  duration:  february 2015 &mdash; july 2015
+  summary: "<ul><li>Ingests receiving</li><li>Retrospective treatment of archival fonds (sampling, packaging, inventory writing)</li><li>Accompanying archivists of the State of Valais in their tasks of advice and support to the administrative and communal units</li><li>Reception and information</li></ul>"
+  icon: university
+  url: ""
+
+
+# Médiathèque Valais - Sion
+- company: Médiathèque Valais - Sion
+  position: Intern
+  duration: august 2014  &mdash; january 2015
+  summary: "<ul><li>Storage and enhancement of collections</li><li>Service to the public: loan, reception and warehouse storage</li><li>Document equipment and development of the equipment process manual</li><li>Update of databases</li><li>Help with setting up animations</li></ul>"
+  icon: university
+  url: ""

@@ -1,0 +1,14 @@
+- name: at-article
+  url: https://github.com/michaelravedoni/at-article/
+  description: Web components and layout for blog and academic articles
+  since: 2018
+
+- name: statathle
+  url: https://github.com/michaelravedoni/statathle/
+  description: A statistics web app for athletics organisations
+  since: 2016
+
+- name: michael.ravedoni.com
+  url: https://github.com/michaelravedoni/michael.ravedoni.com
+  description: Personal website of Michael Ravedoni
+  since: 2017

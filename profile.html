@@ -1,0 +1,38 @@
+---
+layout: default
+title: Profile
+
+namespace: profile
+permalink: /profile/
+---
+
+<article id="content" class="uk-section">
+	<section class="uk-section uk-section-small uk-container uk-container-small">
+		<h1 property="schema:name">{% t profile.title %}</h1>
+		<div property="schema:description">
+			<p>{% t profile.description %}</p>
+		</div>
+	</section>
+	<section class="uk-section uk-section-small uk-container">
+		<div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+			<div>
+				<a class="uk-card uk-card-primary uk-card-hover uk-card-body" href="{% tl biblio %}">
+					<h3 class="uk-card-title">{% t profile.biblio.heading %}</h3>
+					<p>{% t profile.biblio.description %}</p>
+				</a>
+			</div>
+			<div>
+				<a class="uk-card uk-card-secondary uk-card-hover uk-card-body" href="{% tl web %}">
+					<h3 class="uk-card-title">{% t profile.web.heading %}</h3>
+					<p>{% t profile.web.description %}</p>
+				</a>
+			</div>
+			<!-- <div>
+				<a class="uk-card uk-card-secondary uk-card-hover uk-card-body" href="{% tl museum %}">
+					<h3 class="uk-card-title">Musées</h3>
+					<p>…</p>
+				</a>
+			</div> -->
+		</div>
+	</section>
+</article>

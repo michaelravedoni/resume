@@ -1,0 +1,25 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Michael Ravedoni' personal website",
+  "main": "/_site",
+  "dependencies": {},
+  "devDependencies": {
+    "ftp-deploy": "^1.2.2"
+  },
+  "scripts": {
+    "deploy": "node deploy",
+    "build": "bundle exec jekyll build --config _config.yml,_config-prod.yml",
+    "dev": "bundle exec jekyll serve --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelravedoni/michael.ravedoni.com.git"
+  },
+  "author": "Michael Ravedoni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelravedoni/michael.ravedoni.com/issues"
+  },
+  "homepage": "https://michael.ravedoni.com"
+}

@@ -1,0 +1,17 @@
+# Languages
+
+- language: French
+  level: Native language
+  stars: <i class="fa fa-star pull-right"></i><i class="fa fa-star pull-right"></i><i class="fa fa-star pull-right"></i><i class="fa fa-star pull-right"></i><i class="fa fa-star pull-right"></i>
+
+- language: Italian
+  level: Bilingual
+  stars: <i class="fa fa-star pull-right"></i><i class="fa fa-star pull-right"></i><i class="fa fa-star pull-right"></i><i class="fa fa-star pull-right"></i>
+
+- language: German
+  level: Academic level
+  stars: <i class="fa fa-star pull-right"></i><i class="fa fa-star pull-right"></i><i class="fa fa-star pull-right"></i>
+
+- language: English
+  level: Academic level
+  stars: <i class="fa fa-star pull-right"></i><i class="fa fa-star pull-right"></i><i class="fa fa-star pull-right"></i>

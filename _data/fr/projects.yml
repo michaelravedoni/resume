@@ -1,0 +1,34 @@
+# Projects
+# uncomment the urls if you wish to display them, and add your own URL
+
+# statathle
+- project: at-article
+  role: Créateur
+  duration: 2018 &mdash; now
+  url: "https://michaelravedoni.github.io/at-article/"
+  image: project-at-article.png
+  description: at-article is a Web Component collection using Stencil for web-native article writing, usable in any web environment with a clean and flat design.
+
+# statathle
+- project: StatAthlé
+  role: Créateur
+  duration: septembre 2014 &mdash; now
+  url: "https://github.com/michaelravedoni/statathle"
+  image: statathle.png
+  description: Une application web pour les statistiques des résulats sportifs des clubs et institutions athlétiques. Elle permet d'afficher les résultats et les records par athlètes, catégories, compétitions et disciplines. L'on peut également produire des statistiques.
+
+# Template for a Documentation page of CDA services with the user in mind
+- project: Template for a Documentation page of CDA services with the user in mind
+  role: Participant
+  duration: juin 2017
+  url: "https://twiki.cern.ch/twiki/bin/view/CDAgroup/CDAPublicDocTemplate"
+  image: cern-it-cda-mockup.png
+  description: Proposition de modèle pour la documentation de service CERN-IT-CDA. L'objectif est de se concentrer sur le service et non sur la structure organisationnelle. Veuillez faire défiler vers le bas pour les capture d'écran et les commentaires dans la partie dédiée.
+
+# ConfederAl
+- project: UI/UX Design - ConfederAl
+  role: Créateur
+  duration: 2017
+  url: "https://confederal.ch/"
+  image: confederal.png
+  description: UI/UX Design pour un site web à sujet politique. L'utilisateur a été placé, dès la conception, au centre du design. En conformité avec le souhait de départ, celui-ci reste sobre et sérieux.

@@ -1,0 +1,42 @@
+# Jobs
+# CHUV
+
+- company: CHUV | Centre hospitalier universitaire vaudois
+  position: Praktikant
+  duration: juni 2017 &mdash; august 2017
+  summary: <ul><li>Update der Informationsarchitektur des News-Sektion der IUMSP-Website auf Drupal [<a href="https://www.iumsp.ch/actualites-agenda" target="_blank">sehen</a>]</li><li>Internationalisierung (i18n) [<a href="https://github.com/openillink-project/openillink/commit/f21e86df3f99249c5449b714a3d3c82cd02d8e5d">sehen</a>] und Design einer neuen Sichtverkleidung mit Bulma [<a href="https://github.com/michaelravedoni/openillink/tree/master-flat-design" target="_blank">sehen</a>] des OpenSource tool <i><a href="https://github.com/openillink-project/openillink">OpenILLink</a></i> benützt von der Universitätsbibliothek für Medizin (<a href="https://bium.ch" target="_blank">BiUM</a>).</li></ul>
+  icon: code
+  url: 
+
+# CERN
+- company: CERN
+  position: Praktikant
+  duration: juni 2017
+  summary: <p>Beitrag zum Projekt <i><a href="https://twiki.cern.ch/twiki/bin/view/CDAgroup/CDAPublicDocTemplate" target="_blank">Documentation page of CDA services with the user in mind</a></i> :</p><ul><li>für eine Standarddokumentationsseite. Vorlage aufgenommen als Arbeitsgrundlage für die Projektgruppe [<a href="https://app.moqups.com/ravemiki@gmail.com/KNKLrm3VZl/view/page/a099c991c" target="_blank">sehen</a>]</li><li>Vorschlag einer neuen Struktur für die <a href="http://information-technology.web.cern.ch/" target="_blank">CERN-IT Website</a> [<a href="https://twiki.cern.ch/twiki/pub/CDAgroup/CDAPublicDocTemplate/Michael_Ravedoni-CERN-IT-web-Structure-proposal-v.2.pdf" target="_blank">sehen</a>]</li></ul>
+  icon: flask
+  url: ""
+
+# Banque cantonale du Valais (BCVs | WKB)
+- company: Walliser Kantonalbank (BCVs | WKB)
+  position: Sommerpraktikant
+  duration: juni 2016 &mdash; july 2016
+  summary: 
+  icon: university
+  url: 
+
+# Archives de l'État du Valais
+- company: Staatsarchiv Wallis
+  position: Vor-FH Praktikant
+  duration:  februar 2015 &mdash; july 2015
+  summary: "<ul><li>Réception de versements</li><li>Traitement rétrospectif des fonds d'archives (échantillonnage, conditionnement, rédaction d'inventaire)</li><li>Accompagnement des archivistes de l'Etat du Valais dans leurs tâches de conseils et de soutien auprès des unités administratives et communales</li><li>Accueil et renseignements</li></ul>"
+  icon: university
+  url: ""
+
+
+# Médiathèque Valais - Sion
+- company: Mediathek Wallis - Sitten
+  position: Vor-FH Praktikant
+  duration: august 2014  &mdash; januar 2015
+  summary: "<ul><li>Rangement et mise en valeur du libre-accès</li><li>Service aux publics : prêt, accueil et rangement des magasins</li><li>Équipement des documents et élaboration du manuel des processus de l'équipement</li><li>Mise à jour de bases de données</li><li>Aide à la mise en place d'animations</li></ul>"
+  icon: university
+  url: ""

@@ -1,0 +1,43 @@
+stages:
+  - build
+  - staging
+  - live
+
+build:
+  stage: build
+  image: starefossen/ruby-node:latest
+  cache:
+    paths:
+      - node_modules/
+      - vendor/
+  script:
+    - npm install
+    - bundle install
+    - bundle exec jekyll build --config _config.yml,_config-prod.yml
+  artifacts:
+    paths:
+      - build
+  only:
+    - master
+
+deploy_staging:
+  stage: staging
+  environment:
+    name: staging
+    url: $STAGING_URL
+  script:
+    - apt-get update
+    - apt-get install lftp
+    - lftp -e "mirror -R build $FTP_TARGET_DIRECTORY_STAGING" -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST
+  when: manual
+
+deploy_live:
+  stage: live
+  environment:
+    name: live
+    url: $LIVE_URL
+  script:
+    - apt-get update
+    - apt-get install lftp
+    - lftp -e "mirror -R build $FTP_TARGET_DIRECTORY_LIVE" -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST
+  when: manual

@@ -1,0 +1,29 @@
+---
+layout: default
+title: Ma vision des bibliothèques
+
+namespace: web
+permalink: /web/
+---
+
+{% if site.environment == 'development' %}
+<article id="content">
+	<section class="uk-section uk-section-xsmall uk-container uk-container-small">
+		<h1 class="uk-text-center" property="schema:name">{% t web.title %}</h1>
+		<div property="schema:description">
+			<p>{% t web.description %}</p>
+		</div>
+	</section>
+	<section class="uk-section uk-section-small uk-container uk-container-small uk-margin-remove-top">
+	</section>
+</article>
+{% else %}
+<article id="content">
+	<section class="uk-section uk-section-xsmall uk-container uk-container-small">
+		<h1>{% t web.title %}</h1>
+	</section>
+	<section class="uk-section uk-section-small uk-container uk-container-small uk-margin-remove-top">
+		<p class="uk-text-warning uk-text-center">Section en cours d'écriture</p>
+	</section>
+</article>
+{% endif %}

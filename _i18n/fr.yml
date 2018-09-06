@@ -1,0 +1,102 @@
+# fr
+header:
+  contact_me: Me contacter
+  looking_work_now: Je ne cherche pas de travail en ce moment
+
+headings:
+  about: À propos de moi
+  experience: Expériences
+  formation: Formation
+  projects: Projets
+  associations: Associations
+  basic_information: Informations de base
+  skills: Skills
+  testimonials: Témoignages
+  recognitions: Distinctions
+  languages: Langues
+  links: Liens
+
+text:
+  more_linkedin: Plus sur LinkedIn
+  to_project: Vers le projet
+  more: En savoir plus
+
+menu:
+  about: À propos
+  projects: Projets
+  profile: Profil
+
+publications:
+  description: "Vous trouverez toutes mes publications, mes projets et mes créations textuelles ci-après."
+  heading:
+    projects: Projets
+    blog: Papers
+    papers: Papiers
+  text:
+    numendil: "Mon carnet de note personnel, projets et idées"
+    blog: Blog professionel sur les bibliothèques
+    confederal: Une autre politique est possible. ConfederAl offre des décryptages simples avec une vision alternative sur le paysage politique suisse.
+
+about:
+  heading:
+    contact: Contact
+    in_short: En bref
+    about_site: À propos de ce site
+    license: License
+  text:
+    in_short: "J'aime travailler avec les technologies Web ouvertes et libres. Je suis fasciné par la manière dont la technologie change le monde et par la façon dont l'interaction humain-machine change notre comportement. Parallélement, je m'intéresse aux nouveaux outils de gouvernance partagée et à l'économie collaborative qui va bientôt bouleverser nos modes de fonctionnement. J'espère pouvoir vivre un jour l'utopie d'une société libre, basée sur l'économie pair-à-pair, composée de petites communautés locales reliées entre elles par le web et des liens fraternels."
+    contact: "Quelque chose à dire ou à demander? Utilisez les pouvoirs de l'autoroute de l'information pour me contacter !"
+    accounts: "Vous pouvez me trouver sur une variété de sites Web sociaux; mon nom d'utilisateur est habituellement \"michaelravedoni\". Alphabétiquement:"
+    about_site: Ce site est automatiquement généré statiquement par Jekyll. Le code source se trouve sur GitHub. Si vous trouvez une erreur, veuillez me le faire savoir.
+    licence: Tout le contenu public de ce site est sous licence
+
+biblio:
+  title: Des bibliothèques pour le XXI<sup>e</sup> siècle
+  description: La digitalisation de la société, les rapides changements sociaux et économiques du XXI<sup>e</sup> siècle font que la culture, le savoir et l'information deviennent des ressources de production de plus en plus essentielles. Afin de permettre aux citoyens de contribuer, d'innover et de vivre sereinement dans la société de la connaissance et de l'information, il est nécessaire de lui donner les outils nécessaires. La bibliothèque est cette boîte à outils ! Ainsi, faisons en sorte que la bibliothèque se réinvente pour répondre aux défis qui l'attendent.
+
+profile:
+  title: Un CV, deux profils
+  description: "Mes passages dans différentes bibliothèques, centre d'archives et musées, une curiosité pour les tendances et innovations, des discussions et des milliers d'heures passées sur le web m'ont permis de faire émerger de nombreuses idées et modèles adaptés au terrain.<br/>Je suis passionné par cette façon de faire: observer, échanger, s'interroger, douter, rechercher, rassembler, concevoir et appliquer. Où que j'aille, ce processus m'accompagne afin de créer de nouvelles idées ou de nouveaux modèles. C'est dans cette optique que les technologies web et l'économie collaborative me passionnent. Par-dessus tout, je pense que la bibliothèque est au centre du modèle sociétal qui permet la transition vers l'économie du partage."
+  hire_for: Engagez-moi pour…
+  biblio:
+    heading: Bibliothèque
+    description: La bibliothèque du XXI<sup>e</sup> siècle. La bibliothèque comme moteur de la transition vers l'économie collaborative
+  web:
+    heading: Web et société des communs
+    description: Les technologies web au service des communautés pour une économie collaborative (sharing economy), P2P ou grâce à l'Open Co-Operativism
+
+projects:
+  title: Projets et publications
+  description: Vous trouverez toutes mes publications, mes projets et mes créations textuelles ci-après.
+  heading:
+    repos: Projets Web
+    projects: Créations
+    blog: Blog
+    publications: Publications
+  text:
+    numendil: Mon carnet de notes personnel, projets et idées
+    confederal: Une autre politique est possible. ConfederAl offre des décryptages simples avec une vision alternative sur le paysage politique suisse.
+    blog: Blog pro
+
+web:
+  title: Web et société des communs
+  description: En élaboration
+
+cv:
+  headings:
+    about: À propos de moi
+    experience: Expériences
+    formation: Formation
+    projects: Projets
+    associations: Associations
+    basic_information: Informations
+    skills: Skills
+    skills_it: IT skills
+    recognitions: Distinctions
+    languages: Langues
+  header:
+    contact_me: Contactez-moi
+  text:
+    to_project: Vers le projet
+    more_linkedin: Plus sur LinkedIn
+    more: En savoir plus

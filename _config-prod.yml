@@ -1,0 +1,14 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# bundle exec jekyll serve --config _config.yml,_config-prod.yml
+
+# Site settings
+baseurl: "https://michael.ravedoni.com" # the subpath of your site, e.g. /blog
+site_url: "https://michael.ravedoni.com" # the base hostname & protocol for your site
+url: "https://michael.ravedoni.com"
+environment: production
