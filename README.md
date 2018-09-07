@@ -4,7 +4,7 @@
 
 Site personnel de Michael Ravedoni. Vous y trouverez le parcours professionnel, universitaire ainsi que tous les projets et publications auxquels il a participé.
 
-[Resume](https://michael.ravedoni.com)
+[Resume](https://michael.ravedoni.com/en/)
 
 Personal website of Michael Ravedoni. You will find there the professional, academic course as well as all the projects ans publications in which he participated.
 

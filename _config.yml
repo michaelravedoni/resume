@@ -1,12 +1,16 @@
-# Site settings
-title: "Michael Ravedoni"
-description: "A resume of Michael Ravedoni"
-contact_email: michael.ravedoni@gmail.com
+################################
+# Site Settings
+################################
+title         : Michael Ravedoni
+description   : "A resume of Michael Ravedoni"
+contact_email : michael.ravedoni@gmail.com
+logo          : profile-mr.png
+author        : Michael Ravedoni
 
-baseurl: "" # the subpath of your site, e.g. /blog
-site_url: "http://localhost:4000" # the base hostname & protocol for your site
-url: "http://localhost:4000"
-environment: development
+baseurl       : "" # the subpath of your site, e.g. /blog
+site_url      : "http://localhost:4000" # the base hostname & protocol for your site
+url           : "http://localhost:4000"
+environment   : development
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'LICENSE', 'travis.yml', 'node_modules', 'package-lock.json', 'package.json', 'deploy.js']
 
@@ -15,6 +19,21 @@ markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
+
+# Langage
+
+languages: ['fr', 'de', 'en']
+exclude_from_localizations: ["images", "js", "css", "favicon"]
+defaultLang: fr
+
+collections:
+  articles:
+    output: true
+    permalink: /:collection/:path/
+
+################################
+# Resume Settings
+################################
 
 # Resume settings
 resume_avatar:                  "true"
@@ -61,13 +80,9 @@ resume_print_social_links:      true
 # Design settings
 resume_theme:                   developer
 
-# Langage
-
-languages: ['fr', 'de', 'en']
-exclude_from_localizations: ["images", "js", "css", "favicon"]
-defaultLang: fr
-
-# Plugins
+################################
+# Jekyll Plugins
+################################
 plugins:
   - jekyll-assets
 

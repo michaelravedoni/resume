@@ -100,3 +100,10 @@ cv:
     to_project: To the project
     more_linkedin: Mor on LinkedIn
     more: More
+
+articles:
+  title: Articles
+  description: Articles and posts related to the world of libraries
+  text:
+    read: Read
+    back: back

@@ -100,3 +100,10 @@ cv:
     to_project: Vers le projet
     more_linkedin: Plus sur LinkedIn
     more: En savoir plus
+
+articles:
+  title: Articles
+  description: Articles et billets liés au monde des bibliothèques
+  text:
+    read: Lire
+    back: retour

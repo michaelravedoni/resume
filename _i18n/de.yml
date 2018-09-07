@@ -48,7 +48,7 @@ about:
     contact: "Etwas zu sagen oder zu fragen? Nutzen Sie die Befugnisse der Informationsautobahn, um mich zu kontaktieren!"
     accounts: "Sie können mich auf einer Vielzahl von sozialen Websites finden; Mein Benutzername ist normalerweise <i>michaelravedoni</i>. alphabetischer Reihenfolge:"
     about_site: Es ist eine automatisch statische Website, die von Jekyll generiert wurde. Der Quellcode befindet sich auf GitHub. Wenn Sie einen Fehler finden, lassen Sie es mich bitte wissen.
-    licence: Alle öffentlichen Inhalte auf dieser Website sind lizenziert unter 
+    licence: Alle öffentlichen Inhalte auf dieser Website sind lizenziert unter
 
 biblio:
   title: Bibliotheken für das 21. Jahrhundert
@@ -100,3 +100,10 @@ cv:
     to_project: To the project
     more_linkedin: Mor on LinkedIn
     more: More
+
+articles:
+  title: Artikeln
+  description: Artikel und Tickets rund um die Welt der Bibliotheken
+  text:
+    read: Lesen
+    back: zurück
