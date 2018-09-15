@@ -7,7 +7,7 @@ permalink: /cv/
 # SEO
 seo:
   name: Michael Ravedoni's CV
-#  type: Person
+  type: Person
   links :
     - https://www.facebook.com/michael.ravedoni
     - https://www.linkedin.com/in/michael-ravedoni
@@ -21,11 +21,11 @@ resume_avatar:                  "true"
 resume_name:                    "Michael Ravedoni"
 resume_title:                   ""
 resume_contact_email:           "michael.ravedoni@gmail.com"
-# resume_contact_telephone:       ""
+# resume_contact_telephone:     ""
 resume_contact_address:         "Sion-Lausanne-Fribourg"
-# resume_contact_site:         ""
-# resume_header_contact_info: "michael.ravedoni@gmail.com"
-resume_header_intro: ""
+# resume_contact_site:          ""
+resume_header_contact_info:     "true"
+resume_header_intro:            ""
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -49,344 +49,311 @@ resume_section_interests:       true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/michaelravedoni/"
+  resume_github_url:            "https://github.com/michaelravedoni"
   # resume_twitter_url:           "http://twitter.com/jglovier"
   # resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
   resume_linkedin_url:          "https://www.linkedin.com/in/michael-ravedoni/"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "https://michael.ravedoni.com/"
+  resume_website_url:           "https://michael.ravedoni.com"
 resume_print_social_links:      true
 
 # Design settings
 resume_theme:                   developer
 ---
 
-<!-- ******HEADER****** --> 
-    <header class="header">
-        <div class="container clearfix">
-			<!-- You can turn off the avatar in _config.yml by setting to false -->
-			{% if page.resume_avatar == 'true' %}
-            <img itemprop="image" class="profile-image img-fluid float-left" style="max-width: 180px;" src="{{ site.url }}/images/profile-photo.jpg" alt="Michael Ravedoni" />
+<!-- ******HEADER****** -->
+<header class="header">
+	<div class="container clearfix">  
+		<!-- You can turn off the avatar in _config.yml by setting to false -->
+		{% if page.resume_avatar == 'true' %}
+		<img itemprop="image" class="profile-image img-fluid float-left" style="max-width: 180px;" src="{{ site.site_url }}/images/profile-photo.jpg" alt="Michael Ravedoni" />
+		{% endif %}
+		<div class="profile-content float-left">
+			<h1 class="name" itemprop="name">{{ page.resume_name }}</h1>
+			<h2 class="desc" itemprop="jobTitle">{{ site.data[site.lang].intro.title }}</h2>   
+			{% if page.resume_print_social_links %}
+			<ul class="social list-inline">
+				{% if page.resume_social_links.resume_twitter_url %}
+				<li class="list-inline-item"><a itemprop="sameAs" href="{{ page.resume_social_links.resume_twitter_url }}" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li> 
+				{% endif %}
+				{% if page.resume_social_links.resume_googleplus_url %}
+				<li class="list-inline-item"><a itemprop="sameAs" href="{{ page.resume_social_links.resume_googleplus_url }}" target="_blank" rel="noopener"><i class="fab fa-google-plus"></i></a></li>
+				{% endif %}
+				{% if page.resume_social_links.resume_linkedin_url %}
+				<li class="list-inline-item"><a itemprop="sameAs" href="{{ page.resume_social_links.resume_linkedin_url }}" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
+				{% endif %}
+				{% if page.resume_social_links.resume_github_url %}
+				<li class="list-inline-item"><a itemprop="sameAs" href="{{ page.resume_social_links.resume_github_url }}" target="_blank" rel="noopener"><i class="fab fa-github-alt"></i></a></li>
+				{% endif %}
+				{% if page.resume_social_links.resume_hacker_url %}
+				<li class="list-inline-item" itemprop="sameAs" class="last-item"><a href="#"><i class="fab fa-hacker-news" target="_blank" rel="noopener"></i></a></li> 
+				{% endif %}                
+			</ul>
 			{% endif %}
-            <div class="profile-content float-left">
-                <h1 class="name" itemprop="name">{{ page.resume_name }}</h1>
-                <h2 class="desc" itemprop="jobTitle">{{ site.data[site.lang].intro.title }}</h2>   
-				{% if page.resume_print_social_links %}
-                <ul class="social list-inline">
-					{% if page.resume_social_links.resume_twitter_url %}
-                    <li class="list-inline-item"><a itemprop="sameAs" href="{{ page.resume_social_links.resume_twitter_url }}" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li> 
-					{% endif %}
-					{% if page.resume_social_links.resume_googleplus_url %}
-                    <li class="list-inline-item"><a itemprop="sameAs" href="{{ page.resume_social_links.resume_googleplus_url }}" target="_blank" rel="noopener"><i class="fab fa-google-plus"></i></a></li>
-					{% endif %}
-					{% if page.resume_social_links.resume_linkedin_url %}
-                    <li class="list-inline-item"><a itemprop="sameAs" href="{{ page.resume_social_links.resume_linkedin_url }}" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
-					{% endif %}
-					{% if page.resume_social_links.resume_github_url %}
-                    <li class="list-inline-item"><a itemprop="sameAs" href="{{ page.resume_social_links.resume_github_url }}" target="_blank" rel="noopener"><i class="fab fa-github-alt"></i></a></li>
-					{% endif %}
-					{% if page.resume_social_links.resume_hacker_url %}
-                    <li class="list-inline-item" itemprop="sameAs" class="last-item"><a href="#"><i class="fab fa-hacker-news" target="_blank" rel="noopener"></i></a></li> 
-					{% endif %}                
-                </ul>
-				{% endif %}
-            </div><!--//profile-->
-			{% if page.resume_looking_for_work == 'yes' %}
-            <a class="btn btn-cta-secondary float-right" href="mailto:{{ page.resume_contact_email }}" target="_blank" rel="noopener"><i class="fasfa-paper-plane"></i> {% t cv.header.contact_me %}</a>
-			{% elsif page.resume_looking_for_work == 'no' %}
-			<a class="btn btn-cta-primary float-right">{% t cv.header.looking_work_now %}</a>
-			{% else %}
-			{% endif %}            
-        </div><!--//container-->
-    </header><!--//header-->
+		</div><!--//profile-->
+		{% if page.resume_looking_for_work == 'yes' %}
+		<a class="btn btn-cta-secondary float-right" href="mailto:{{ page.resume_contact_email }}" target="_blank" rel="noopener"><i class="fas fa-paper-plane"></i> {% t cv.header.contact_me %}</a>
+		{% elsif page.resume_looking_for_work == 'no' %}
+		<a class="btn btn-cta-primary float-right">{% t cv.header.looking_work_now %}</a>
+		{% else %}
+		{% endif %}            
+	</div><!--//container-->
+</header><!--//header-->
 	
-	<div class="text-center uk-margin-top">
-		<a href="{{site.baseurl_root}}{{page.url}}" class="uk-button uk-button-small uk-button-secondary">Français</a> 
-		<a href="{{site.baseurl_root}}/de{{page.url}}" class="uk-button uk-button-small uk-button-secondary">Deutsch</a> 
-		<a href="{{site.baseurl_root}}/en{{page.url}}" class="uk-button uk-button-small uk-button-secondary">English</a>
-	</div>
+<div class="text-center uk-margin-top">
+	<a href="{{site.site_url}}" class="uk-button uk-button-small uk-button-secondary">Français</a> 
+	<a href="{{site.site_url}}/de" class="uk-button uk-button-small uk-button-secondary">Deutsch</a> 
+	<a href="{{site.site_url}}/en" class="uk-button uk-button-small uk-button-secondary">English</a>
+</div>
 	
-	<div class="container sections-wrapper">
-        <div class="row">
-            <div class="primary col-lg-8 col-2">
-                <section class="about section">
-                    <div class="section-inner">
-                        <h2 class="heading">{% t cv.headings.about %}</h2>
-                        <div class="content" itemprop="description">
-                            {{ site.data[site.lang].intro.text }}
-                        </div><!--//content-->
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
+<div class="container sections-wrapper">
+	<div class="row">
+		<div class="primary col-md-8 col-sm-12 col-xs-12">
+			<section class="about section">
+				<div class="section-inner">
+					<h2 class="heading">{% t cv.headings.about %}</h2>
+					<div class="content" itemprop="description">
+						{{ site.data[site.lang].intro.text }}
+					</div><!--//content-->
+				</div><!--//section-inner-->                 
+			</section><!--//section-->
 				
-				{% if page.resume_section_experience %}
-				<!-- begin Experience -->
-				<section class="experience education section">
-                    <div class="section-inner">
-                        <h2 class="heading">{% t cv.headings.experience %}</h2>
-                        <div class="content">
-							{% for job in site.data[site.lang].experience %}
-                            <div class="item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-                                <h3 itemprop="name"><i class="fasfa-{{job.icon}}"></i> {{ job.company }}</h3>
-								<div class="title"><span class="h4">{{ job.position }}</span> — <span class="year">{{ job.duration }}</span></div>
-								<div itemprop="description">{{ job.summary }}</div>
-							</div><!--//item-->
-							{% endfor %}
+			{% if page.resume_section_experience %}
+			<!-- begin Experience -->
+			<section class="experience education section">
+				<div class="section-inner">
+					<h2 class="heading">{% t cv.headings.experience %}</h2>
+					<div class="content">
+						{% for job in site.data[site.lang].experience %}
+						<div class="item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+							<h3 itemprop="name"><i class="fas fa-{{job.icon}}"></i> {{ job.company }}</h3>
+							<div class="title"><span class="h4">{{ job.position }}</span> — <span class="year">{{ job.duration }}</span></div>
+							<div itemprop="description">{{ job.summary }}</div>
+						</div><!--//item-->
+						{% endfor %}
                             
-						</div><!--//content-->  
-					</div><!--//section-inner-->                 
-				</section><!--//section-->
-				<!-- end Experience -->
-				{% endif %}
+					</div><!--//content-->  
+				</div><!--//section-inner-->                 
+			</section><!--//section-->
+			<!-- end Experience -->
+			{% endif %}
 				
-				{% if page.resume_section_education %}
-				<!-- begin Education -->
-				<section class="experience education section">
-                    <div class="section-inner">
-                        <h2 class="heading">{% t cv.headings.formation %}</h2>
-                        <div class="content">
-							{% for education in site.data[site.lang].education %}
-                            <div class="item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-                                <h3 itemprop="name"><i class="fasfa-graduation-cap"></i> {{ education.uni }}</h3>
-								<div class="title university"><span class="h4">{{ education.degree }}</span> — <span class="year">{{ education.year }} {{ education.award }}</span></div>
-								<div itemprop="description">{{ education.summary }}</div>
-							</div><!--//item-->
-							{% endfor %}
+			{% if page.resume_section_education %}
+			<!-- begin Education -->
+			<section class="experience education section">
+				<div class="section-inner">
+					<h2 class="heading">{% t cv.headings.formation %}</h2>
+					<div class="content">
+						{% for education in site.data[site.lang].education %}
+						<div class="item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
+							<h3 itemprop="name"><i class="fas fa-graduation-cap"></i> {{ education.uni }}</h3>
+							<div class="title university"><span class="h4">{{ education.degree }}</span> — <span class="year">{{ education.year }} {{ education.award }}</span></div>
+							<div itemprop="description">{{ education.summary }}</div>
+						</div><!--//item-->
+						{% endfor %}
                             
-						</div><!--//content-->  
-					</div><!--//section-inner-->                 
-				</section><!--//section-->
+					</div><!--//content-->  
+				</div><!--//section-inner-->                 
+			</section><!--//section-->
       
-				<!-- end Education -->
-				{% endif %}
+			<!-- end Education -->
+			{% endif %}
 				
-				{% if page.resume_section_projects %}
-				<!-- begin Projects -->
-				<section class="latest experience section">
-                    <div class="section-inner">
-                        <h2 class="heading">{% t cv.headings.projects %}</h2>
-                        <div class="content">
-							{% if site.data.projectsLead.display %}
-                            <div class="item featured text-center" itemscope itemtype="http://schema.org/CreativeWork">
-								<meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-                                <h3 class="title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" target="_blank" rel="noopener" itemprop="url">{{site.data.projectsLead.title}}</a>{% else %}{{ project.project }}{% endif %}</h3>
-                                <p class="summary" itemprop="description">A responsive Bootstrap template designed for digital products</p>
-                                <div class="featured-image">
-                                    <a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/" target="_blank" rel="noopener">
-										<img class="img-responsive project-image" src="https://rawgit.com/xriley/Developer-Theme/master/assets/images/projects/project-featured.png" alt="project name" />
-                                    </a>
-                                    <div class="ribbon">
-                                        <div class="text">New</div>
-									</div>
+			{% if page.resume_section_projects %}
+			<!-- begin Projects -->
+			<section class="latest experience section">
+				<div class="section-inner">
+					<h2 class="heading">{% t cv.headings.projects %}</h2>
+					<div class="content">
+						{% if site.data[site.lang].projectsLead.display %}
+						{% assign projectLead = site.data[site.lang].projectsLead %}
+						<div class="item featured text-center" itemscope itemtype="http://schema.org/CreativeWork">
+							<meta itemprop="creator" content="{{ page.resume_name }}" itemtype="http://schema.org/Person" />
+							<h3 class="title" itemprop="name">{% if projectLead.url %}<a href="{{ project.url }}" target="_blank" rel="noopener" itemprop="url">{{projectLead.title}}</a>{% else %}{{ project.project }}{% endif %}</h3>
+							<p class="summary" itemprop="description">{{projectLead.lead}}</p>
+							<div class="featured-image">
+								<a href="{{projectLead.url}}" target="_blank" rel="noopener">
+									<img class="img-responsive project-image" src="{{ site.site_url }}/images/{{projectLead.image}}" alt="{{projectLead.title}}" />
+								</a>
+								<div class="ribbon">
+									<div class="text">{{projectLead.ribon}}</div>
 								</div>
-                                <div class="desc text-left">                                  
-                                    <p>You can promote your main project here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
-                                    <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
-                                </div><!--//desc-->         
-                                <a class="btn btn-cta-secondary" href="{{ project.url }}" target="_blank" rel="noopener"><i class="fasfa-thumbs-o-up"></i> Back my project</a>                 
-                            </div><!--//item-->
-							<hr class="divider" />
-							{% endif %}
+							</div>
+							<div class="desc text-left uk-container">{{projectLead.description}}</div><!--//desc-->         
+							<a class="btn btn-cta-secondary" href="{{ projectLead.url }}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> {% t cv.text.to_project %}</a>                 
+						</div><!--//item-->
+						<hr class="divider" />
+						{% endif %}
 							
-							{% for project in site.data[site.lang].projects %}
-                            <div class="item row" itemscope itemtype="http://schema.org/CreativeWork">
-								<meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="{{ project.url }}" target="_blank" rel="noopener">
-									<img class="img-responsive project-image" src="{{ site.url }}/images/{{project.image}}" alt="{{ project.project }}" />
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" target="_blank" rel="noopener" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %} <span class="year float-right">{% if project.duration %}{{ project.duration }}{% endif %}</span></h3>
-									<p itemprop="description">
-										<span class="badge badge-theme">{% if project.role %}{{ project.role }}{% endif %}</span> &bull; {{ project.description }}
-									</p>
-									<p><a class="more-link" href="{{ project.url }}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> {% t cv.text.to_project %}</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
-							{% endfor %}
+						{% for project in site.data[site.lang].projects %}
+						<div class="item row" itemscope itemtype="http://schema.org/CreativeWork">
+							<meta itemprop="creator" content="{{ page.resume_name }}" itemtype="http://schema.org/Person" />
+							<a class="col-md-4 col-sm-4 col-xs-12" href="{{ project.url }}" target="_blank" rel="noopener">
+								<img class="img-responsive project-image" src="{{ site.site_url }}/images/{{project.image}}" alt="{{ project.project }}" />
+							</a>
+							<div class="desc col-md-8 col-sm-8 col-xs-12">
+								<h3 class="title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" target="_blank" rel="noopener" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %} <span class="year float-right">{% if project.duration %}{{ project.duration }}{% endif %}</span></h3>
+								<p itemprop="description">
+									<span class="badge badge-theme">{% if project.role %}{{ project.role }}{% endif %}</span> &bull; {{ project.description }}
+								</p>
+								<p><a class="more-link" href="{{ project.url }}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> {% t cv.text.to_project %}</a></p>
+							</div><!--//desc-->                          
+						</div><!--//item-->
+						{% endfor %}
                             
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-				{% endif %}
+					</div><!--//content-->  
+				</div><!--//section-inner-->                 
+			</section><!--//section-->
+			{% endif %}
                 
-				{% if page.resume_section_associations %}
-				<!-- begin Associations -->
-                <section class="projects experience section">
-                    <div class="section-inner">
-                        <h2 class="heading">{% t cv.headings.associations %}</h2>
-                        <div class="content">
-							{% for association in site.data[site.lang].associations %}
-                            <div class="item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
-                                <h3 class="title" itemprop="name">{% if association.url %}<a href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %} <span class="year float-right">{{ association.year }}</span></h3>
-                                <p class="summary" temprop="description"><span class="badge badge-theme">{% if association.role %}{{ association.role }}{% endif %}</span> {{ association.summary }}</p>
-                                <p><a class="more-link" href="{{ association.url }}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> {% t cv.text.more %}</a></p>
-                            </div><!--//item-->
-							{% endfor %}
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-				<!-- end Associations -->
-				{% endif %}
+			{% if page.resume_section_associations %}
+			<!-- begin Associations -->
+			<section class="projects experience section">
+				<div class="section-inner">
+					<h2 class="heading">{% t cv.headings.associations %}</h2>
+					<div class="content">
+						{% for association in site.data[site.lang].associations %}
+						<div class="item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
+							<h3 class="title" itemprop="name">{% if association.url %}<a href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %} <span class="year float-right">{{ association.year }}</span></h3>
+							<p class="summary" temprop="description"><span class="badge badge-theme">{% if association.role %}{{ association.role }}{% endif %}</span> {{ association.summary }}</p>
+							<p><a class="more-link" href="{{ association.url }}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> {% t cv.text.more %}</a></p>
+						</div><!--//item-->
+						{% endfor %}
+					</div><!--//content-->  
+				</div><!--//section-inner-->                 
+			</section><!--//section-->
+			<!-- end Associations -->
+			{% endif %}
 				
 						
 					
-			</div><!--//primary-->
+		</div><!--//primary-->
 					
-			<div class="secondary col-lg-4 col-12">
-				<aside class="info aside section">
-					<div class="section-inner">
-						<h2 class="heading sr-only">{% t cv.headings.basic_information %}</h2>
-						<div class="content">
-							<ul class="list-unstyled">
-								{% if page.resume_contact_address %}
-								<li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>{{page.resume_contact_address}}</li>
-								{% endif %}
-								{% if page.resume_header_contact_info %}
-								<li><i class="fas fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:{{ page.resume_contact_email }}">{{page.resume_header_contact_info }}</a></li>
-								{% endif %}
-								{% if page.resume_contact_site %}
-								<li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="{{page.resume_contact_site}}">{{page.resume_contact_site}}</a></li>
-								{% endif %}
-							</ul>
-						</div><!--//content-->  
-					</div><!--//section-inner-->                 
-				</aside><!--//aside-->
+		<div class="secondary col-md-4 col-sm-12 col-xs-12">
+			<aside class="info aside section">
+				<div class="section-inner">
+					<h2 class="heading sr-only">{% t cv.headings.basic_information %}</h2>
+					<div class="content">
+						<ul class="list-unstyled">
+							{% if page.resume_contact_address %}
+							<li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>{{page.resume_contact_address}}</li>
+							{% endif %}
+							{% if resume_header_contact_info %}
+							<li><i class="fas fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:{{ resume_contact_email }}">{{resume_contact_email }}</a></li>
+							{% endif %}
+							{% if page.resume_contact_site %}
+							<li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="{{page.resume_contact_site}}">{{page.resume_contact_site}}</a></li>
+							{% endif %}
+						</ul>
+					</div><!--//content-->  
+				</div><!--//section-inner-->                 
+			</aside><!--//aside-->
                 
-				{% if page.resume_section_skills %}
-				<!-- begin Skills -->
-				<aside class="skills aside section">
-					<div class="section-inner">
-						<h2 class="heading">{% t cv.headings.skills %}</h2>
-						<div class="content">
-							<p class="intro"></p>
+			{% if page.resume_section_skills %}
+			<!-- begin Skills -->
+			<aside class="skills aside section">
+				<div class="section-inner">
+					<h2 class="heading">{% t cv.headings.skills %}</h2>
+					<div class="content">
+						<p class="intro"></p>
                             
-							<div class="skillset">
+						<div class="skillset">
                                
-								{% for skill in site.data[site.lang].skills %}
-								<div class="item">
-									<h3 class="level-title">{{ skill.skill }}<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">{{ skill.description }}</span></h3>
-									<div class="level-bar">
-										<div class="level-bar-inner" data-level="{{ skill.level }}%">
-										</div>                                      
-									</div><!--//level-bar-->                                 
-								</div><!--//item-->
-								{% endfor %} 
-							</div>              
-						</div><!--//content-->  
-					</div><!--//section-inner-->                 
-				</aside><!--//section-->
-				<!-- end Skills -->
-				{% endif %}
-				{% if page.resume_section_skills %}
-				<!-- begin IT Skills -->
-				<aside class="skills aside section">
-					<div class="section-inner">
-						<h2 class="heading">{% t cv.headings.skills_it %}</h2>
-						<div class="content">
-							<p class="intro"></p>
-                            
-							<div class="skillset">
-                               
-								{% for skill in site.data[site.lang].skills_it %}
-								<div class="item">
-									<h3 class="level-title">{{ skill.skill }}<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">{{ skill.description }}</span></h3>
-									<div class="level-bar">
-										<div class="level-bar-inner" data-level="{{ skill.level }}%">
-										</div>                                      
-									</div><!--//level-bar-->                                 
-								</div><!--//item-->
-								{% endfor %}
-									
-								<p><a class="more-link" href="{{ page.resume_social_links.resume_linkedin_url }}"><i class="fas fa-external-link-alt"></i> {% t cv.text.more_linkedin %}</a></p> 
-							</div>              
-						</div><!--//content-->  
-					</div><!--//section-inner-->                 
-				</aside><!--//section-->
-				<!-- end IT Skills -->
-				{% endif %}
-                
-				{% if page.resume_section_testimonials %}
-				<!-- begin Testimonials -->
-				<aside class="testimonials aside section">
-					<div class="section-inner">
-						<h2 class="heading">{% t cv.headings.testimonials %}</h2>
-						<div class="content">
+							{% for skill in site.data[site.lang].skills %}
 							<div class="item">
-								<blockquote class="quote">                                  
-									<p><i class="fas fa-quote-left"></i>James is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p>
-								</blockquote>                
-								<p class="source"><span class="name">Tim Adams</span><br /><span class="title">Curabitur commodo</span></p>                                                             
-							</div><!--//item-->
-                            
-							<p><a class="more-link" href="{{ page.resume_social_links.resume_linkedin_url }}"><i class="fas fa-external-link-alt"></i> Plus sur LinkedIn</a></p> 
-                            
-						</div><!--//content-->
-					</div><!--//section-inner-->
-				</aside><!--//section-->
-				<!-- end Testimonials -->
-				{% endif %}
-                
-				{% if page.resume_section_recognition %}
-				<!-- begin Recognitions -->
-				<aside class="education aside section">
-					<div class="section-inner">
-						<h2 class="heading">{% t cv.headings.recognitions %}</h2>
-						<div class="content">
-							{% for recognition in site.data[site.lang].recognitions %}
-							<div class="item">              
-								<h3 class="title" itemprop="award"><i class="fas fa-{{recognition.icon}}"></i> {{ recognition.award }}</h3>
-								<h4 class="university">{{ recognition.organization }} <span class="year">({{ recognition.year }})</span></h4>
+								<h3 class="level-title">{{ skill.skill }}<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">{{ skill.description }}</span></h3>
+								<div class="level-bar">
+									<div class="level-bar-inner" data-level="{{ skill.level }}%">
+									</div>                                      
+								</div><!--//level-bar-->                                 
 							</div><!--//item-->
 							{% endfor %}
-						</div><!--//content-->
-					</div><!--//section-inner-->
-				</aside><!--//section-->
-				<!-- end Recognitions -->
-				{% endif %}
+									
+							<p><a class="more-link" href="{{ page.resume_social_links.resume_linkedin_url }}"><i class="fas fa-external-link-alt"></i> {% t cv.text.more_linkedin %}</a></p> 
+						</div>              
+					</div><!--//content-->  
+				</div><!--//section-inner-->                 
+			</aside><!--//section-->
+			<!-- end Skills -->
+			{% endif %}
+                
+			{% if page.resume_section_testimonials %}
+			<!-- begin Testimonials -->
+			<aside class="testimonials aside section">
+				<div class="section-inner">
+					<h2 class="heading">{% t cv.headings.testimonials %}</h2>
+					<div class="content">
+						<div class="item">
+							<blockquote class="quote">                                  
+								<p><i class="fas fa-quote-left"></i>James is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p>
+							</blockquote>                
+							<p class="source"><span class="name">Tim Adams</span><br /><span class="title">Curabitur commodo</span></p>                                                             
+						</div><!--//item-->
+                            
+						<p><a class="more-link" href="{{ page.resume_social_links.resume_linkedin_url }}"><i class="fas fa-external-link-alt"></i> Plus sur LinkedIn</a></p> 
+                            
+					</div><!--//content-->
+				</div><!--//section-inner-->
+			</aside><!--//section-->
+			<!-- end Testimonials -->
+			{% endif %}
+                
+			{% if page.resume_section_recognition %}
+			<!-- begin Recognitions -->
+			<aside class="education aside section">
+				<div class="section-inner">
+					<h2 class="heading">{% t cv.headings.recognitions %}</h2>
+					<div class="content">
+						{% for recognition in site.data[site.lang].recognitions %}
+						<div class="item">              
+							<h3 class="title" itemprop="award"><i class="fas fa-{{recognition.icon}}"></i> {{ recognition.award }}</h3>
+							<h4 class="university">{{ recognition.organization }} <span class="year">({{ recognition.year }})</span></h4>
+						</div><!--//item-->
+						{% endfor %}
+					</div><!--//content-->
+				</div><!--//section-inner-->
+			</aside><!--//section-->
+			<!-- end Recognitions -->
+			{% endif %}
 				
-				{% if page.resume_section_languages %}
-				<!-- begin Languages -->
-				<aside class="languages aside section">
-					<div class="section-inner">
-						<h2 class="heading">{% t cv.headings.languages %}</h2>
-						<div class="content">
-							<ul class="list-unstyled">
-								{% for language in site.data[site.lang].languages %}
-								<li class="item">
-									<span class="title"><strong>{{language.language}} :</strong></span>
-									<span class="level">{{language.level}} <br class="visible-xs"/>{{language.stars}}</span>
-								</li><!--//item-->
-								{% endfor %}
-							</ul>
-						</div><!--//content-->
-					</div><!--//section-inner-->
-				</aside><!--//section-->
-				<!-- end Languages -->
-				{% endif %}
+			{% if page.resume_section_languages %}
+			<!-- begin Languages -->
+			<aside class="languages aside section">
+				<div class="section-inner">
+					<h2 class="heading">{% t cv.headings.languages %}</h2>
+					<div class="content">
+						<ul class="list-unstyled">
+							{% for language in site.data[site.lang].languages %}
+							<li class="item">
+								<span class="title"><strong>{{language.language}} :</strong></span>
+								<span class="level">{{language.level}} <br class="visible-xs"/>{{language.stars}}</span>
+							</li><!--//item-->
+							{% endfor %}
+						</ul>
+					</div><!--//content-->
+				</div><!--//section-inner-->
+			</aside><!--//section-->
+			<!-- end Languages -->
+			{% endif %}
 				
-                {% if page.resume_section_links %}
-				<!-- begin Links -->
-				<aside class="list conferences aside section">
-					<div class="section-inner">
-						<h2 class="heading">{% t cv.headings.links %}</h2>
-						<div class="content">
-							<ul class="list-unstyled">
-								{% for link in site.data[site.lang].links %}
-								<li><i class="fas fa-calendar"></i> <a href="{{link.url}}" target="_blank" rel="noopener">{{link.title}}</a> ({{link.description}})</li>
-								{% endfor %}
-							</ul>
-						</div><!--//content-->
-					</div><!--//section-inner-->
-				</aside><!--//section-->
-				<!-- end Links -->
-				{% endif %}
+			{% if page.resume_section_links %}
+			<!-- begin Links -->
+			<aside class="list conferences aside section">
+				<div class="section-inner">
+					<h2 class="heading">{% t cv.headings.links %}</h2>
+					<div class="content">
+						<ul class="list-unstyled">
+							{% for link in site.data[site.lang].links %}
+							<li><i class="fas fa-calendar"></i> <a href="{{link.url}}" target="_blank" rel="noopener">{{link.title}}</a> ({{link.description}})</li>
+							{% endfor %}
+						</ul>
+					</div><!--//content-->
+				</div><!--//section-inner-->
+			</aside><!--//section-->
+			<!-- end Links -->
+			{% endif %}
               
-			</div><!--//secondary-->    
-		</div><!--//row-->
-	</div><!--//masonry-->
-		
-	<footer class="footer">
-		<div class="container">
-			<p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a class="dotted-link" href="https://github.com/jglovier/resume-template">GitHub</a>. This responsive portfolio template is handcrafted by UX designer <a href="https://www.linkedin.com/in/xiaoying" target="_blank" rel="noopener">Xiaoying Riley</a> at <a href="http://themes.3rdwavemedia.com/" target="_blank" rel="noopener">3rd Wave Media</a> for developers and is <strong>FREE</strong> under the <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">Creative Commons Attribution 3.0 License</a></p>
-		</div>
-		</footer>
+		</div><!--//secondary-->    
+	</div><!--//row-->
+</div><!--//masonry-->

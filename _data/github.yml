@@ -8,7 +8,7 @@
   description: A statistics web app for athletics organisations
   since: 2016
 
-- name: michael.ravedoni.com
-  url: https://github.com/michaelravedoni/michael.ravedoni.com
-  description: Personal website of Michael Ravedoni
-  since: 2017
+- name: at-article-redactor-plugins
+  url: https://github.com/michaelravedoni/at-article-redactor-plugins
+  description: Imperavi Redactor plugins for writing clean and flat articles with at-article
+  since: 2018

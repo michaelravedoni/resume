@@ -1,0 +1,16 @@
+@media print
+{
+  header,
+  footer,
+  .mr-articles-hero,
+  .mr-articles-hgroup-divider {
+    display: none;
+  }
+
+  *, *::before, *::after {
+      background: inherit !important;
+      color: inherit !important;
+      box-shadow: inherit !important;
+      text-shadow: inherit !important;
+  }
+}

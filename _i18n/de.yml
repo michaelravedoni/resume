@@ -1,41 +1,32 @@
 # de
-header:
-  contact_me: Kontaktieren Sie mich
-  looking_work_now: Ich suche gerade nicht nach Arbeit
+cv:
+  header:
+    contact_me: Kontaktieren Sie mich
+    looking_work_now: Ich suche gerade nicht nach Arbeit
 
-headings:
-  about: Über mich
-  experience: Erfahrungen
-  formation: Ausbildung
-  projects: Projekte
-  associations: Volunteering
-  basic_information: Basis Informationen
-  skills: Skills
-  testimonials: Referenzen
-  recognitions: Anerkennungen
-  languages: Sprachen
-  links: Links
+  headings:
+    about: Über mich
+    experience: Erfahrungen
+    formation: Ausbildung
+    projects: Projekte
+    associations: Volunteering
+    basic_information: Basis Informationen
+    skills: Skills
+    testimonials: Referenzen
+    recognitions: Anerkennungen
+    languages: Sprachen
+    links: Links
 
-text:
-  more_linkedin: Mehr über LinkedIn
-  to_project: Siehe das Projekt
-  more: Mehr
+  text:
+    more_linkedin: Mehr über LinkedIn
+    to_project: Siehe das Projekt
+    more: Mehr
 
 menu:
   about: About
-  projects: Projekten
+  publications: Publikationen
   profile: Profile
-
-publications:
-  description: In diesem Abschnitt finden Sie meine eigenen Veröffentlichungen und wo Sie könnene sie finden.
-  heading:
-    projects: Projekte
-    blog: Papers
-    papers: Papers
-  text:
-    numendil: Mein persönliches Notizbuch, Projekte und Ideen
-    blog: Professioneller Blog und Artikel über Bibliotheken
-    confederal: Eine andere Politik ist möglich. ConfederAl bietet einfache Entschlüsselungen mit einer alternativen Blick auf die Schweizer politische Landschaft.
+  articles: Artikeln
 
 about:
   heading:
@@ -48,7 +39,7 @@ about:
     contact: "Etwas zu sagen oder zu fragen? Nutzen Sie die Befugnisse der Informationsautobahn, um mich zu kontaktieren!"
     accounts: "Sie können mich auf einer Vielzahl von sozialen Websites finden; Mein Benutzername ist normalerweise <i>michaelravedoni</i>. alphabetischer Reihenfolge:"
     about_site: Es ist eine automatisch statische Website, die von Jekyll generiert wurde. Der Quellcode befindet sich auf GitHub. Wenn Sie einen Fehler finden, lassen Sie es mich bitte wissen.
-    licence: Alle öffentlichen Inhalte auf dieser Website sind lizenziert unter
+    licence: Sofern nicht anders angegeben, sind alle öffentlichen Inhalte auf dieser Website (Texte und Bilder) lizenziert unter
 
 biblio:
   title: Bibliotheken für das 21. Jahrhundert
@@ -65,18 +56,18 @@ profile:
     heading: Web und common society
     description: Web-Technologien im Dienste der Gemeinschaften für eine gemeinsame Wirtschaft, P2P oder durch Open Co-Operativism.
 
-projects:
+publications:
   title: Projekte und Publikationen
   description: Nachfolgend finden Sie alle meine Publikationen, Projekte und Textkreationen.
   heading:
     repos: Web-Projekte
-    projects: Kreationen
-    blog: Blog
+    creations: Kreationen
+    articles: Blog
     publications: Publikationen
   text:
     numendil: Mein persönliches Notizbuch, Projekte und Ideen
     confederal: Ein anderer politischer Ansatz ist möglich. ConfederAl bietet eine einfache Entschlüsselung mit einem alternativen Blick auf die politische Landschaft der Schweiz.
-    blog: Blog
+    articles: Blog
 
 web:
   title: Web und common society

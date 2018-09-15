@@ -10,16 +10,23 @@
 		{% include header-menu.html %}
 	</header>
 	<main>
-		<section class="uk-height-medium uk-responsive-width uk-inline">
-			<img src="{{ page.image }}" />
+		<section class="mr-articles-hero uk-height-medium uk-responsive-width uk-inline">
+			<img src="{{ page.image }}" uk-parallax="blur: 10; grayscale: 100;" />
 			<div class="uk-overlay uk-position-top-left uk-visible"><a class="uk-button uk-button-default uk-button-secondary uk-button-small" href="{% tl articles %}">&larr; {% t articles.text.back %}</a></div>
 		</section>
-		<at-article>
-			<h1 class="uk-margin-large-top uk-margin-remove-bottom uk-text-center uk-article-title">{{ page.title }}</h1>
-			<div class="uk-margin-top uk-margin-remove-bottom uk-text-center"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d.%m.%Y" }}</time></div>
+		<at-article toc="true" control="true">
+			<hgroup class="uk-text-center uk-margin-large-bottom">
+				<h1 class="uk-margin-large-top uk-margin-remove-bottom uk-article-title">{{ page.title }}</h1>
+				<div class="uk-margin-top uk-margin-remove-bottom"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time> · <small>par Michael Ravedoni</small></div>
+				<hr class="mr-articles-hgroup-divider uk-divider-icon">
+			</hgroup>
 			<at-article-content>{{ content }}</at-article-content>
 			<at-notes></at-notes>
 			<at-references></at-references>
+			{% if page.bibliography %}
+			<h2 class="at-nocount">Bibliographie</h2>
+			{{ page.bibliography }}
+			{% endif %}
 	</at-article>
 	</main>
 	{% include footer.html %}
