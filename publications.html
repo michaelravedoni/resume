@@ -80,6 +80,7 @@ var template = Tempo.prepare('zotero', {'var_braces' : '\\[\\[\\]\\]', 'tag_brac
 axios.get('https://api.zotero.org/users/2753887/collections/2F9RWS4L/items/top?key=bAy4ngNG2dhuMkWSHwqw8vot&format=json')
 .then(function (response) {
     template.render(response.data);
+	console.log(response.data);
 })
 .catch(function (error) {
     console.log(error);

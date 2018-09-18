@@ -6,32 +6,35 @@ namespace: articles
 permalink: /articles/
 ---
 
-
-			<div class="uk-margin uk-slideshow" uk-slideshow="animation:fade; autoplay:true; pauseOnHover:true; ratio: 2500:500; min-height:300; max-height:500">
-				<div class="uk-position-relative">
-					<ul class="uk-slideshow-items">
-						{% for post in site.articles reversed limit:4 %}
-						<li class="">
-							<img src="{{post.image}}">   
-							<div class="uk-position-cover uk-flex uk-flex-bottom uk-flex-right">
-								<div class="uk-overlay uk-tile-secondary uk-padding uk-width-xlarge">
-									<div class="el-meta uk-margin uk-text-meta uk-margin-remove-adjacent uk-margin-small-bottom">{% t articles.title %}</div>
-									<h1 class="uk-margin">{{post.title}}</h1>
-									<p><a href="{{post.url}}" class="el-link uk-button uk-button-text">{% t articles.text.read %}</a></p>
-								</div>
-							</div>
-						</li>
-						{% endfor %}
-					</ul>
-					<div class="uk-slidenav-container uk-position-bottom-left uk-visible@m uk-dark" style="background-color: white;">
-						<a href="#" uk-slidenav-previous></a>
-						<a href="#" uk-slidenav-next></a>
-					</div>     
-					<div class="uk-position-bottom-center uk-position-medium uk-visible@xl uk-light">
-						<ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+<div class="uk-margin uk-slideshow" uk-slideshow="animation:fade; autoplay:true; pauseOnHover:true; ratio: 2500:500; min-height:300; max-height:500">
+	<div class="uk-position-relative">
+		<ul class="uk-slideshow-items">
+			{% for post in site.articles reversed limit:4 %}
+			<li class="">
+				{% if post.unsplash %}
+				<img src="https://source.unsplash.com/{{ post.unsplash }}/2500x500"/>
+				{% else %}
+				<img src="{{ post.image }}"/>
+				{% endif %}
+				<div class="uk-position-cover uk-flex uk-flex-bottom uk-flex-right">
+					<div class="uk-overlay uk-tile-secondary uk-padding uk-width-xlarge">
+						<div class="el-meta uk-margin uk-text-meta uk-margin-remove-adjacent uk-margin-small-bottom">{% t articles.title %}</div>
+						<h1 class="uk-margin">{{post.title}}</h1>
+						<p><a href="{{post.url}}" class="el-link uk-button uk-button-text">{% t articles.text.read %}</a></p>
 					</div>
 				</div>
-			</div>
+			</li>
+			{% endfor %}
+		</ul>
+		<div class="uk-slidenav-container uk-position-bottom-left uk-visible@m uk-dark" style="background-color: white;">
+			<a href="#" uk-slidenav-previous></a>
+			<a href="#" uk-slidenav-next></a>
+		</div>     
+		<div class="uk-position-bottom-center uk-position-medium uk-visible@xl uk-light">
+			<ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+		</div>
+	</div>
+</div>
 			
 
 <article id="content" class="">

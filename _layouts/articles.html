@@ -10,19 +10,26 @@
 		{% include header-menu.html %}
 	</header>
 	<main>
-		<section class="mr-articles-hero uk-height-medium uk-responsive-width uk-inline">
-			<img src="{{ page.image }}" uk-parallax="blur: 10; grayscale: 100;" />
+		<section class="mr-articles-hero uk-height-medium uk-responsive-width uk-inline" id="unsplash">
+			{% if page.unsplash %}
+			<img src="https://source.unsplash.com/{{ page.unsplash }}/2500x500" uk-parallax="blur: 10; grayscale: 100;" />
+			{% else %}
+			<img src="{{ page.image }}" uk-parallax="blur:10; grayscale:10;" />
+			{% endif %}
 			<div class="uk-overlay uk-position-top-left uk-visible"><a class="uk-button uk-button-default uk-button-secondary uk-button-small" href="{% tl articles %}">&larr; {% t articles.text.back %}</a></div>
+			{% if page.unsplash %}
+			<div class="uk-overlay uk-position-bottom-right uk-visible@l" data-template><a class="uk-button uk-button-default uk-button-secondary uk-button-small" href="[[links.html]]" target="_blank" title="[[location.title]]" uk-tooltip="[[location.title]] from Unsplash under the Unsplash License">Photo by [[user.name]]</a></div>
+			{% endif %}
 		</section>
-		<at-article toc="true" control="true">
+		<at-article toc="true" control="true" class="js-at-toc-content">
 			<hgroup class="uk-text-center uk-margin-large-bottom">
 				<h1 class="uk-margin-large-top uk-margin-remove-bottom uk-article-title">{{ page.title }}</h1>
 				<div class="uk-margin-top uk-margin-remove-bottom"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time> · <small>par Michael Ravedoni</small></div>
 				<hr class="mr-articles-hgroup-divider uk-divider-icon">
 			</hgroup>
 			<at-article-content>{{ content }}</at-article-content>
-			<at-notes></at-notes>
-			<at-references></at-references>
+			<at-notes heading="Notes"></at-notes>
+			<at-references heading="Références"></at-references>
 			{% if page.bibliography %}
 			<h2 class="at-nocount">Bibliographie</h2>
 			{{ page.bibliography }}
@@ -31,5 +38,22 @@
 	</main>
 	{% include footer.html %}
  </div>
+ 
+{% if page.unsplash %}
+<script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.17.1/axios.js'></script>
+<script src='https://cdn.rawgit.com/twigkit/tempo/master/tempo.min.js'></script>
+
+<script >
+var template = Tempo.prepare('unsplash', {'var_braces' : '\\[\\[\\]\\]', 'tag_braces' : '\\[\\?\\?\\]'});
+axios.get('https://api.unsplash.com/photos/{{page.unsplash}}?client_id=5de87936224495f9849bc22f89dc1953ffcf4e9a97ff6258a0d946d4fc3ba33b')
+.then(function (response) {
+    template.render(response.data);
+})
+.catch(function (error) {
+    console.log(error);
+});
+</script>
+{% endif %}
+
 </body>
 </html>

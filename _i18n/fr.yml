@@ -35,7 +35,7 @@ about:
     about_site: À propos de ce site
     license: License
   text:
-    in_short: "J'aime travailler avec les technologies Web ouvertes et libres. Je suis fasciné par la manière dont la technologie change le monde et par la façon dont l'interaction humain-machine change notre comportement. Parallélement, je m'intéresse aux nouveaux outils de gouvernance partagée et à l'économie collaborative qui va bientôt bouleverser nos modes de fonctionnement. J'espère pouvoir vivre un jour l'utopie d'une société libre, basée sur l'économie pair-à-pair, composée de petites communautés locales reliées entre elles par le web et des liens fraternels."
+    in_short: "J'aime travailler avec les technologies Web ouvertes et libres. Je suis fasciné par la manière dont la technologie change le monde et par la façon dont l'interaction humain-machine change notre comportement. Parallélement, je m'intéresse aux nouveaux outils de gouvernance partagée et à l'économie des communs qui va bientôt bouleverser nos modes de fonctionnement. J'espère pouvoir vivre un jour l'utopie d'une société libre, basée sur l'économie pair-à-pair, composée de petites communautés locales reliées entre elles par le web et des liens fraternels."
     contact: "Quelque chose à dire ou à demander? Utilisez les pouvoirs de l'autoroute de l'information pour me contacter !"
     accounts: "Vous pouvez me trouver sur une variété de sites Web sociaux; mon nom d'utilisateur est habituellement \"michaelravedoni\". Alphabétiquement:"
     about_site: Ce site est automatiquement généré statiquement par Jekyll. Le code source se trouve sur GitHub. Si vous trouvez une erreur, veuillez me le faire savoir.
@@ -47,14 +47,14 @@ biblio:
 
 profile:
   title: Un CV, deux profils
-  description: "Mes passages dans différentes bibliothèques, centre d'archives et musées, une curiosité pour les tendances et innovations, des discussions et des milliers d'heures passées sur le web m'ont permis de faire émerger de nombreuses idées et modèles adaptés au terrain.<br/>Je suis passionné par cette façon de faire: observer, échanger, s'interroger, douter, rechercher, rassembler, concevoir et appliquer. Où que j'aille, ce processus m'accompagne afin de créer de nouvelles idées ou de nouveaux modèles. C'est dans cette optique que les technologies web et l'économie collaborative me passionnent. Par-dessus tout, je pense que la bibliothèque est au centre du modèle sociétal qui permet la transition vers l'économie du partage."
+  description: "Mes passages dans différentes bibliothèques, centre d'archives et musées, une curiosité pour les tendances et innovations, des discussions et des milliers d'heures passées sur le web m'ont permis de faire émerger de nombreuses idées et modèles adaptés au terrain.<br/>Je suis passionné par cette façon de faire: observer, échanger, s'interroger, douter, rechercher, rassembler, concevoir et appliquer. Où que j'aille, ce processus m'accompagne afin de créer de nouvelles idées ou de nouveaux modèles. C'est dans cette optique que les technologies web et l'économie des communs me passionnent. Par-dessus tout, je pense que la bibliothèque est au centre du modèle sociétal qui permet la transition vers l'économie du partage."
   hire_for: Engagez-moi pour…
   biblio:
     heading: Bibliothèque
-    description: La bibliothèque du XXI<sup>e</sup> siècle. La bibliothèque comme moteur de la transition vers l'économie collaborative
+    description: La bibliothèque du XXI<sup>e</sup> siècle. La bibliothèque comme moteur de la transition vers l'économie des communs
   web:
     heading: Web et société des communs
-    description: Les technologies web au service des communautés pour une économie collaborative (sharing economy), P2P ou grâce à l'Open Co-Operativism
+    description: Les technologies web au service des communautés pour une économie des communs, P2P ou grâce à l'Open Co-Operativism
 
 publications:
   title: Publications et projets

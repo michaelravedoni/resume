@@ -1,59 +1,12 @@
 ---
-title: Qu'est-ce qu'une bibliothèque&nbsp;?
+title: Les bibliothèques antiques
 layout: articles
-date: '2018-09-15 09:00:00'
-unsplash: U-mltYLzFOI
-bibliography: '<at-reference type="bibliography" title="La bibliothèque plateforme
-  : espace dédié à la création, au partage et à la diffusion de culture – exemple
-  par la création d’un makerspace" creator="Michael Ravedoni" date="2018">Cet article
-  est principalement issu du travail de Bachelor de l''auteur. Il en présente une
-  synthèse du premier chapitre et de sa conclusion. Mandaté par la Médiathèque Valais,
-  le travail aboutit sur la création d’un modèle général pour la bibliothèque : la
-  bibliothèque plateforme. Le modèle est décliné sous la forme d''un exemple pour
-  la création d’un makerspace à la Médiathèque Valais. Loin d’être une révolution,
-  le modèle formalise et synthétise les avancées et les savoir- faire acquis depuis
-  des centaines d’années par les bibliothécaires en considérant les évolutions de
-  la société du XXI<sup>e</sup> siècle. La bibliothèque devient une plateforme facilitant
-  la création, la diffusion et le partage de culture entre créateurs et utilisateurs
-  de culture. Elle agit ensuite comme un hub communautaire ayant l’infrastructure
-  nécessaire pour capitaliser et pérenniser cette culture.</at-reference>'
+unsplash: hYrnz92-bpY
+date: '2018-11-01 10:00:00'
+published: true
 ---
 
-Selon que l'on soit informaticien, étudiant, contribuable, politicien ou bibliothécaire, le sens de ce terme est interprété et imaginé d'une infinité de manières différentes. Vous avez dit « bibliothèque » ? Nous allons tenter de définir « bibliothèque ». La bibliothèque peut être définie à la foi par son éthymologie, ses missions et son histoire. C'est ce que nous allons faire successivement, après quoi nous synthétiserons cela dans un eproposition de définition.
-
-<at-callout type="block">Cet article est principalement issu du travail de Bachelor écrit par l'auteur lui-même. De nombreuses parties en sont directement tirées telles quelles.</at-callout>
-
-## Ethymologie
-En grec ancien, le mot bibliothèque (βιβλιοθήκη) signifie « coffre, armoire à livres » <at-reference  key="barbier16" title="Histoire des bibliothèques : d'Alexandrie aux bibliothèques virtuelles" creator="Barbier, Frédéric" date="2016" publisher="Armand Colin" isbn="9782200616250" itemType="book" locator="7" label="p. "></at-reference>. Ainsi, historiquement la bibliothèque ne représente ni le concept d’institution ni le concept de bâtiment. Ce n’est qu’au XVIe siècle que la signification du mot évolue progressivement vers celle que l’on connaît communément aujourd’hui : un lieu réservé aux livres. Si, dans le monde latin et germanophone, nous utilisons le mot bibliothèque, ce n’est pas le cas dans le monde anglo-saxon où le mot library est employé. Qu’en est-il donc de l’étymologie du mot librairie ? Le mot librairie1 vient de l’adjectif latin librarius, « relatif aux livres ». Le même substantif féminin libraria renvoie à une collection de livres. Quant à librarium, substantif neutre, il signifie « le meuble à livres » <at-citation key="barbier16" locator="8" label="p. "></at-citation>.
-
-Ainsi, ces deux mots, bibliothèque et librairie, sont tous deux étroitement liés d’abord aux parchemins, aux rouleaux, aux manuscrits, puis aux livres. Impossible de s’en défaire étymologiquement. En français, c’est le terme de bibliothèque qui est retenu. Du meuble (armoire ou coffre), l’acceptation du terme grandit petit à petit à la pièce où le meuble se trouve. Elle grandit ensuite au bâtiment où se trouve la pièce, puis à l’institution elle-même. Aujourd’hui, la bibliothèque évoque, pour le commun des mortels, un lieu plus ou moins vaste où sont entreposées des collections d’objets, généralement des livres.
-
-Par métonymie, le terme de bibliothèque ou de librairie renvoie également à une collection de livres. On l’utilise également pour désigner un ensemble de livres publiés chez un même éditeur et présentant des caractéristiques communes <at-citation key="barbier16" locator="7" label="p. "></at-citation>. En informatique, une bibliothèque ou librairie est un ensemble de fonctions ,regroupées et mises à disposition de la communauté dans le but de pouvoir les réutiliser sans avoir à les réécrire.
-
-Après avoir vu que la bibliothèque était, en Antiquité, le meuble, puis le lieu où l’on rangeait le savoir écrit, nous avons découvert que la signification du terme bibliothèque avait peu à peu évolué vers le lieu, puis l’institution où se trouvait ce meuble. Si la bibliothèque renvoie aujourd’hui encore dans l’inconscient collectif aux livres, elle ne se limite pourtant pas qu’aux livres.
-
-## Missions
-Les missions des bibliothèques découlent des chartes et des cadres légaux.  En effet, c'est bien souvent ces documents qui définissent les missions des bibliothèques<at-note>Les missions sont bien souvent définines par la collectivité responsable de la bibliothèque (commune, canton ou pays). Dans bien des cas pourtant, ce cadre est flou ou non défini. C’est pourquoi il existe des chartes ayant une portée internationale ou nationale qui incitent à la réflexion et font acte d’engagement envers la collectivité <at-reference title="Missions des bibliothèques" date="2012" creator="enssib" publisher="enssib" url=" http://www.enssib.fr/le-dictionnaire/missions-des-bibliotheques"></at-reference>.</at-note>. L'analyse et la synthèse de ces différentes chartes et cadres légaux nous permettent de faire resortir les éléments communs. Ces éléments peuvent ensuite être catégoriser dans le but de créer un panorama des missions génériques des bibliothèques. Ainsi, nous pouvons classer ces missions dans trois catégories distinctes : agréger l’information, mettre à disposition et créer du lien.
-
-### Agréger l'information
-La bibliothèque sélectionne, acquiert, organise, conserve et gère des collections physiques ou virtuelles <at-reference key="levfuture11" title="Confronting the future: strategic visions for the 21st century public library" creator="Levien, Roger Eli" date="2011" publisher="ALA Office for Information Technology Policy" place="Washington, D.C." locator="12" label="p. "></at-reference>. Elle fait ensuite en sorte que ces collections puissent circuler de manière physique (prêt aux usagers ou aux autres bibliothèques) ou atteignent le public (libre accès, expositions, vitrines, catalogues, etc.). La fonction première qui en découle est la fonction patrimoniale. La bibliothèque conserve manuscrits, imprimés anciens, livres d’artistes, œuvres d’auteurs locaux, journaux locaux, etc. Elle a pour but de pérenniser, entretenir et enrichir la mémoire locale (Bertrand, 2011, p. 69). Vient ensuite la fonction de réservoir d’informations. Elle a dans ses collections des œuvres littéraires, des ouvrages documentaires, des partitions, une discothèque, une cinémathèque, une artothèque, etc. Elle propose bien souvent des abonnements aux magazines, aux revues et à la presse ainsi qu’aux bases de données (Bertrand, 2011, p. 75).
-
-Pour Jacques Cordonier, la bibliothèque est « d’abord un agrégateur » de l’information (Cordonier et al., 2016, p. 23). La vision qui émerge ici est celle d’une bibliothèque qui rassemble dans ses collections l’information et l’agrégeant de manière intelligente pour en faire profiter ses publics. Mais, elle fait également en sorte de mettre en place les outils et processus nécessaires pour permettre à ces mêmes publics qui « consomment » l’information de la créer.
-
-### Mettre à disposition
-Qu'elle soit physique ou virtuelle, la bibliothèque met aussi à disposition du public toutes sortes de services et d’infrastructures dans le but d’enrichir l’usager intellectuellement ou culturellement à partir de ses collections. L’infrastructure peut être mise à disposition sous forme d’espaces (Cordonier et al., 2016, p. 115) : espaces propices au travail intellectuel et à la lecture, espaces de travail, espaces collaboratifs ou de réunion, espaces de récréation ou de loisirs.
-
-Les services proposés peuvent être en relation directe avec les collections : aide à la recherche, prêt à domicile, prêt entre bibliothèques. Les services sont parfois d’ordre matériel : ordinateurs, photocopieurs, scanneurs, matériel média (caméras, appareils photographiques, trépieds, instruments de musique), machines, etc. Mais souvent, la bibliothèque offre aux usagers un accès aux ordinateurs et à Internet (avec un soutien technique de base), ainsi qu’un accès aux technologies multimédias basiques et avancées permettant d’enregistrer, d’afficher, d’éditer et d’imprimer les médias (photos, musique, cinéma, artisanat) <at-citation key="levfuture11" locator="13" label="p. "></at-citation>.
-
-### Créer du lien
-Enfin, **la bibliothèque est avant tout présente afin de créer du lien entre les collections, entre les collections et l’usager et entre les usagers**. La création de liens offre à l’usager la possibilité de s’enrichir intellectuellement ou culturellement. Pour se faire, il est primordial de l’accompagner dans son processus. Ainsi, la bibliothèque possède une fonction éducative ou d’apprentissage: support scolaire et universitaire pour la rédaction de travaux, aide pour la reconversion professionnelle, l’apprentissage de langues, l’autoformation, l’autodidaxie, etc.
-
-La bibliothèque est également le lieu qui permet la réduction des fractures sociales, technologiques et économiques qui existent entre les individus. Lieu neutre et social, elle est accessible sans formalité et (le plus souvent) gratuitement. Par le biais d’expositions, de conférences, de discussions, le partage d’espaces de travail et d’espaces de débats (Cordonier et al., 2016, p. 115), la bibliothèque est un lieu qui permet la rencontre, l’imagination, l’ouverture, la construction de soi, la formation d’un esprit critique et la confrontation des opinions (Bertrand, 2011, p. 70 et 76).
-
-Voilà les trois catégories de missions que l'on peut tirer des chartes et cadres légaux traditionnels. Cette classification peut bien évidemment être sujet à discussion et à modification, mais elle permet d'aisément se faire une idée globale des missions des bibliothèques.
-
-## Antiquité
-<at-callout>Voir aussi l'article plus détaillé : xxxx</at-callout>
+En écriture.
 
 L'Antiquité présente une facette très intéressante des bibliothèque que nous avons du mal à concevor aujourd'hui. Les hommes de lettre et de savoir (généralement des prêtres ou des scribes) de cette époque entreposaient leur savoir écrit sur des étagères dans des niches creusées dans les murs (Coulon, 2004). Comme les supports d’écriture à cette époque étaient rares et chers, les documents (tablettes, parchemins, rouleaux et manuscrits) tenaient souvent dans une seule armoire ou un seul coffre. Nous l’avons évoqué plus haut, en antiquité la bibliothèque était une armoire, puis un lieu où l’on entreposait les connaissances.
 
@@ -92,7 +45,7 @@ En Turquie actuelle, la cité grecque de Nysa accueillait un gymnase composé 
 Figure 3 : Plan de l'Agora classique d'Athènes.
 
  L’urbanisme et l’architecture romaine reprennent les concepts de base de l’architecture grecque. Il n’est donc pas étonnant d’y retrouver les mêmes structures et schémas. Il subsiste tout de même quelques variantes :
- 
+
 * Basilique civile : Évolution de la stoa grecque, la basilique est un grand espace couvert abritant des activités commerciales, financières et judiciaires. Elle n’a pas de fonction religieuse à cette époque.
 * Forum : Prolongement de l’agora grec, le forum est une place publique où les citoyens se rassemblent pour discuter ou y faire des affaires. Il est parfois entouré de temples, de basiliques, de boutiques, de curies, d’écoles ou d’une bibliothèque.
 * Thermes : Héritiers des gymnases grecs et généralement ouverts à tous les publics (Legras, 2008), ce complexe abrite des bains, une palestre, des jardins, des auditoriums et des bibliothèques, etc. (Martin Pruvot, 2001). Ils sont des lieux d'éducation physique et spirituelle (Umlauf, Gradmann, 2012, p. 303)
@@ -108,6 +61,3 @@ Franck Mei voit dans ce modèle romain de thermes-forum incluant une bibliothe�
 
 À la suite de ces exemples, nous voyons que dans le monde antique, la bibliothèque publique ou située dans un espace public existe rarement comme institution seule et indépendante. Elle est toujours liée aux bâtiments aux complexes et à la communauté qui l’entoure. La bibliothèque antique est plutôt une bibliothèque collection dont le contenu sert les missions du gymnase, de la palestre, de la basilique ou des thermes. La bibliothèque publique ou située dans un espace public sert donc de support à l’apprentissage et à l’épanouissement de la communauté qui la possède.
 Enfin, nos ancêtres grecs puis romains possédait déjà un modèle de bibliothèque ressemblant fortement à celui de la bibliothèque troisième-lieu. Nous sommes-nous égaré pendant tout ce temps ? Sûrement pas, les priorités ont vraisemblablement été mises ailleurs jusqu’ici. Malgré tout, les agoras-gymnases grecs ainsi que les thermes- basiliques romaines nous montrent comment ces peuples considéraient la connaissance et le loisir : intégré dans l’espace public et animé par l’ensemble de la communauté.
-
-## Proposition de définition
-<at-block type="definition" heading="Bibliothèque">La bibliothèque est un outil faisant partie de l’institution ou de la communauté à laquelle elle appartient ayant sa propre raison d’être et dont les bibliothécaires occupent une mission particulière : améliorer la société en facilitant la création de connaissances, le partage de culture et la diffusion de ressources dans leurs communautés.</at-block>
