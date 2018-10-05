@@ -1,0 +1,15 @@
+# Projects lead
+# uncomment the urls if you wish to display them, and add your own URL
+
+# Lead project
+
+display: false
+title: at-article
+role: Créateur
+duration: 2018-now
+image: project-at-article.png
+url: https://michaelravedoni.github.io/at-article/
+lead: Web components and layout for blog and academic articles
+description: at-article is a Web Component collection using Stencil for web-native article writing, usable in any web environment with a clean and flat design.
+image:
+ribon:

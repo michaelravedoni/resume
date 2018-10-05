@@ -22,14 +22,21 @@ sass:
 
 # Langage
 
-languages: ['fr', 'de', 'en']
-exclude_from_localizations: ["images", "js", "css", "favicon"]
+languages: ['fr', 'de', 'en', 'it']
+#languages: ['fr']
+exclude_from_localizations: ["images", "js", "css", "favicon", "doc", "robots.txt", "card.rdf"]
 defaultLang: fr
 
 collections:
   articles:
     output: true
     permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /publications/:path/
+  tb:
+    output: true
+    permalink: /publications/2018-tb-bibliotheque-plateforme/:path/
 
 ################################
 # Jekyll Plugins
@@ -40,6 +47,7 @@ plugins:
 gems:
   - jekyll-multiple-languages-plugin
   - jekyll-sitemap
+  - jekyll-email-protect
 
 # Note: when editing locally, remember to restart
 # your Jekyll server when you edit this file. Changes

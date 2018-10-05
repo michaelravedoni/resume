@@ -2,7 +2,7 @@
 title: Les bibliothèques antiques
 layout: articles
 unsplash: hYrnz92-bpY
-date: '2018-11-01 10:00:00'
+date: '2019-01-01 10:00:00'
 published: true
 ---
 

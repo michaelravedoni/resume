@@ -27,6 +27,8 @@ menu:
   publications: Publications
   profile: Profil
   articles: Articles
+  cv: CV
+  teaching: Formation
 
 about:
   heading:
@@ -35,7 +37,7 @@ about:
     about_site: À propos de ce site
     license: License
   text:
-    in_short: "J'aime travailler avec les technologies Web ouvertes et libres. Je suis fasciné par la manière dont la technologie change le monde et par la façon dont l'interaction humain-machine change notre comportement. Parallélement, je m'intéresse aux nouveaux outils de gouvernance partagée et à l'économie des communs qui va bientôt bouleverser nos modes de fonctionnement. J'espère pouvoir vivre un jour l'utopie d'une société libre, basée sur l'économie pair-à-pair, composée de petites communautés locales reliées entre elles par le web et des liens fraternels."
+    in_short: "Je vois dans le Web un outil capable de façonner une société ouverte et décentralisée. Le Web étant par nature virtuel, je vois dans la bibliothèque l'outil qui relie le Web au monde physique. Ensemble, ces deux outils rendent possible le partage des connaissances de chacun pour tous. Parallèlement, je m'intéresse aux nouveaux outils de gouvernance partagée et à l'économie des communs qui va bientôt bouleverser nos modes de fonctionnement. J'espère pouvoir vivre un jour l'utopie d'une société libre, basée sur l'économie pair-à-pair, composée de petites communautés locales reliées entre elles par le Web et des liens physiques fraternels."
     contact: "Quelque chose à dire ou à demander? Utilisez les pouvoirs de l'autoroute de l'information pour me contacter !"
     accounts: "Vous pouvez me trouver sur une variété de sites Web sociaux; mon nom d'utilisateur est habituellement \"michaelravedoni\". Alphabétiquement:"
     about_site: Ce site est automatiquement généré statiquement par Jekyll. Le code source se trouve sur GitHub. Si vous trouvez une erreur, veuillez me le faire savoir.
@@ -47,7 +49,7 @@ biblio:
 
 profile:
   title: Un CV, deux profils
-  description: "Mes passages dans différentes bibliothèques, centre d'archives et musées, une curiosité pour les tendances et innovations, des discussions et des milliers d'heures passées sur le web m'ont permis de faire émerger de nombreuses idées et modèles adaptés au terrain.<br/>Je suis passionné par cette façon de faire: observer, échanger, s'interroger, douter, rechercher, rassembler, concevoir et appliquer. Où que j'aille, ce processus m'accompagne afin de créer de nouvelles idées ou de nouveaux modèles. C'est dans cette optique que les technologies web et l'économie des communs me passionnent. Par-dessus tout, je pense que la bibliothèque est au centre du modèle sociétal qui permet la transition vers l'économie du partage."
+  description: "Mes passages dans différentes bibliothèques, centre d'archives et musées, une curiosité pour les tendances et innovations, des discussions et des milliers d'heures passées sur le web m'ont permis de faire émerger de nombreuses idées et modèles adaptés au terrain.<br/>Je suis passionné par cette façon de faire: observer, échanger, s'interroger, douter, rechercher, rassembler, concevoir et appliquer. Où que j'aille, ce processus m'accompagne afin de créer de nouvelles idées ou de nouveaux modèles. C'est dans cette optique que les technologies web et l'économie des communs me passionnent. Par-dessus tout, je pense que la bibliothèque est au centre du modèle sociétal qui permet la transition vers la société des communs."
   hire_for: Engagez-moi pour…
   biblio:
     heading: Bibliothèque
@@ -68,29 +70,13 @@ publications:
     numendil: Mon carnet de notes personnel, projets et idées
     confederal: Une autre politique est possible. ConfederAl offre des décryptages simples avec une vision alternative sur le paysage politique suisse.
     articles: Blog pro
+    abstract: Résumé
+    read: Consulter
+    cite: Citer
 
 web:
   title: Web et société des communs
   description: En élaboration
-
-cv:
-  headings:
-    about: À propos de moi
-    experience: Expériences
-    formation: Formation
-    projects: Projets
-    associations: Associations
-    basic_information: Informations
-    skills: Skills
-    skills_it: IT skills
-    recognitions: Distinctions
-    languages: Langues
-  header:
-    contact_me: Contactez-moi
-  text:
-    to_project: Vers le projet
-    more_linkedin: Plus sur LinkedIn
-    more: En savoir plus
 
 articles:
   title: Articles
@@ -98,3 +84,12 @@ articles:
   text:
     read: Lire
     back: retour
+
+teaching:
+  title: Formation
+  description: J'adore transmettre ma passion pour le Web, la bibliothèque et l'économie des communs et collaborative. Contactez-moi si vous cherchez un conférencier.
+  headings:
+    courses: Cours et formations courtes
+    lectures: Conférences
+  text:
+    see: Voir

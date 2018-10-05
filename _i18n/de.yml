@@ -27,6 +27,8 @@ menu:
   publications: Publikationen
   profile: Profile
   articles: Artikeln
+  cv: CV
+  teaching: Lehre
 
 about:
   heading:
@@ -35,7 +37,7 @@ about:
     about_site: Über diese Website
     license: Lizenz
   text:
-    in_short: "Ich arbeite gerne mit offenen und free Webtechnologien und bin fasziniert von der Art und Weise, wie Technologie die Welt verändert. Gleichzeitig interessiere ich mich für die neuen Instrumente der geteilten Regierungsführung und der kollaborativen Wirtschaft. Ich hoffe die Utopie einer freien Gesellschaft auf einer Peer-to-Peer-Wirtschaft basiert leben."
+    in_short: "Ich sehe das Web als ein Mittel, das eine offene und dezentrale Gesellschaft gestalten kann. Das Web ist per se virtuell, so sehe ich in der Bibliothek das Mittel, um das Web mit der physischen Welt zu verbinden. Zusammen ermöglichen diese beiden Instrumente, das Wissen von jedem für alle zu teilen. Gleichzeitig interessiere ich mich für die neuen Instrumente der geteilten Regierungsführung und der kollaborativen Wirtschaft. Ich hoffe die Utopie einer freien Gesellschaft auf einer Peer-to-Peer-Wirtschaft basiert leben."
     contact: "Etwas zu sagen oder zu fragen? Nutzen Sie die Befugnisse der Informationsautobahn, um mich zu kontaktieren!"
     accounts: "Sie können mich auf einer Vielzahl von sozialen Websites finden; Mein Benutzername ist normalerweise <i>michaelravedoni</i>. alphabetischer Reihenfolge:"
     about_site: Es ist eine automatisch statische Website, die von Jekyll generiert wurde. Der Quellcode befindet sich auf GitHub. Wenn Sie einen Fehler finden, lassen Sie es mich bitte wissen.
@@ -68,29 +70,13 @@ publications:
     numendil: Mein persönliches Notizbuch, Projekte und Ideen
     confederal: Ein anderer politischer Ansatz ist möglich. ConfederAl bietet eine einfache Entschlüsselung mit einem alternativen Blick auf die politische Landschaft der Schweiz.
     articles: Blog
+    abstract: Zusammenfassung
+    read: Lesen
+    cite: Zitieren
 
 web:
   title: Web und common society
   description: In Entwicklung
-
-cv:
-  headings:
-    about: About me
-    experience: Experiences
-    formation: Education
-    projects: Projects
-    associations: Associations
-    basic_information: Informations
-    skills: Skills
-    skills_it: IT skills
-    recognitions: Recognitions
-    languages: Languages
-  header:
-    contact_me: Contact-me
-  text:
-    to_project: To the project
-    more_linkedin: Mor on LinkedIn
-    more: More
 
 articles:
   title: Artikeln
@@ -98,3 +84,12 @@ articles:
   text:
     read: Lesen
     back: zurück
+
+teaching:
+  title: Lehre
+  description: Ich liebe meine Leidenschaft für das Web, die Bibliothek und die Sharing und commons economy zu vermitteln. Kontaktieren Sie mich, wenn Sie einen Lautsprecher suchen.
+  headings:
+    courses: Kurse und kurze Trainingskurse
+    lectures: Konferenzen
+  text:
+    see: Sehen

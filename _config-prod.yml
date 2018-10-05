@@ -8,7 +8,7 @@
 # bundle exec jekyll serve --config _config.yml,_config-prod.yml
 
 # Site settings
-baseurl: "https://michael.ravedoni.com" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 site_url: "https://michael.ravedoni.com" # the base hostname & protocol for your site
 url: "https://michael.ravedoni.com"
 environment: production

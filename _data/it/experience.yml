@@ -1,0 +1,42 @@
+# Jobs
+# CHUV
+
+- company: CHUV | Centre hospitalier universitaire vaudois
+  position: Interno
+  duration: juin 2017 &mdash; août 2017
+  summary: <ul><li>Aggiornamento dell'architettura dell'informazione della sezione news del sito IUMSP su Drupal [<a href="https://www.iumsp.ch/actualites-agenda" target="_blank">vedere</a>]</li><li>Internazionalizzazione (i18n) [<a href="https://github.com/openillink-project/openillink/commit/f21e86df3f99249c5449b714a3d3c82cd02d8e5d">vedere</a>] e concezione di un nuovo visual design con Bulma [<a href="https://github.com/michaelravedoni/openillink/tree/master-flat-design" target="_blank">vedere</a>] del applicazione OpenSource <i><a href="https://github.com/openillink-project/openillink">OpenILLink</a></i> utilizzato dalla Biblioteca universitaria di medicina (<a href="https://bium.ch" target="_blank">BiUM</a>).</li></ul>
+  icon: code
+  url:
+
+# CERN
+- company: CERN
+  position: Interno
+  duration: juin 2017
+  summary: <p>Contributo al progetto <i><a href="https://twiki.cern.ch/twiki/bin/view/CDAgroup/CDAPublicDocTemplate" target="_blank">Documentation page of CDA services with the user in mind</a></i> :</p><ul><li>Creazione del modello per una pagina di documentazione standard. Modello ripreso come base di lavoro dal gruppo di progetto [<a href="https://app.moqups.com/ravemiki@gmail.com/KNKLrm3VZl/view/page/a099c991c" target="_blank">vedere</a>]</li><li>Proposta di una nuova struttura per il <a href="http://information-technology.web.cern.ch/" target="_blank">sito web del CERN-IT</a> [<a href="https://twiki.cern.ch/twiki/pub/CDAgroup/CDAPublicDocTemplate/Michael_Ravedoni-CERN-IT-web-Structure-proposal-v.2.pdf" target="_blank">vedere</a>]</li></ul>
+  icon: flask
+  url: ""
+
+# Banque cantonale du Valais (BCVs | WKB)
+- company: Banque cantonale du Valais (BCVs | WKB)
+  position: Stagista estivo
+  duration: juin 2016 &mdash; juillet 2016
+  summary:
+  icon: university
+  url:
+
+# Archives de l'État du Valais
+- company: Archives de l'État du Valais
+  position: Interno pre-HEG
+  duration:  février 2015 &mdash; juillet 2015
+  summary: "<ul><li>Ricevimento dei versamenti</li><li>Trattamento retrospettivo dei fondi archivistici (campionamento, imballaggio, redazione dell'inventario)</li><li>Sostegno agli archivisti dello Stato del vallese nei loro compiti di consulenza e sostegno alle unità amministrative e comunali.</li><li>Ricezione et informazioni</li></ul>"
+  icon: university
+  url: ""
+
+
+# Médiathèque Valais - Sion
+- company: Médiathèque Valais - Sion
+  position: Interno pre-HEG
+  duration: août 2014  &mdash; janvier 2015
+  summary: "<ul><li>Conservazione e valorizzazione del libero accesso</li><li>Servizio al pubblico: prestito, ricezione e magazzinaggio</li><li>Équipement des documents et élaboration du manuel des processus de l'équipement</li><li>Aggiornamento dei database</li><li>Assistenza nella creazione di animazioni</li></ul>"
+  icon: university
+  url: ""

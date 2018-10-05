@@ -1,48 +1,95 @@
 # it
-header:
-  contact_me: Me contacter
-  looking_work_now: Je ne cherche pas de travail en ce moment
+cv:
+  header:
+    contact_me: Contattarmi
+    looking_work_now: Non sto cercando lavoro in questo momento.
 
-headings:
-  about: À propos de moi
-  experience: Expériences
-  formation: Formation
-  projects: Projets
-  associations: Associations
-  basic_information: Informations de base
-  skills: Skills
-  testimonials: Témoignages
-  recognitions: Distinctions
-  languages: Langues
-  links: Liens
+  headings:
+    about: Su di me
+    experience: Esperienze
+    formation: Formazione
+    projects: Progetti
+    associations: Associazioni
+    basic_information: Informazioni di base
+    skills: Competenze
+    testimonials: Testimonianze
+    recognitions: Distinzioni
+    languages: Lingue
+    links: Link
 
-text:
-  more_linkedin: Plus sur LinkedIn
-  to_project: Vers le projet
-  more: En savoir plus
+  text:
+    more_linkedin: Per saperne di più su LinkedIn
+    to_project: Al progetto
+    more: Per saperne di più
 
 menu:
   about: About
-  publications: Publicationi
-
-publications:
-  description: "Vous trouverez toutes mes publications, mes projets et mes créations textuelles ci-après."
-  heading:
-    projects: Projets
-    blog: Papers
-    papers: Papers
-  text:
-    numendil: "Mon carnet de note personnel, projets et idées"
-    blog: Professional blog and papers on libraries
-    confederal: Un'altra politica è possibile. Confederal offre semplici decifrazioni con una visione alternativa del panorama politico svizzero.
+  publications: Pubblicazioni
+  profile: Profilo
+  articles: Articoli
+  cv: CV
+  teaching: Formazione
 
 about:
   heading:
-    contact: Contact
-    in_short: En bref
-    about_site: À propos de ce site
-    license: License
+    contact: Informazioni di contatto
+    in_short: In poche parole
+    about_site: Su questo sito
+    license: Licenza
   text:
-    in_short: "J'aime travailler avec les technologies Web ouvertes et libres. Je suis fasciné par la manière dont la technologie change le monde et par la façon dont l'interaction humain-machine change notre comportement. Parallélement, je m'intéresse aux nouveaux outils de gouvernance partagée et à l'économie collaborative qui va bientôt bouleverser nos modes de fonctionnement. J'espère pouvoir vivre un jour l'utopie d'un société libre, basée sur l'économie pair à pair, composée de petite communautés locales reliées entre elles par le web et des liens fraternels."
-    contact: "Quelque chose à dire ou à demander? Utilisez les pouvoirs de l'autoroute de l'information pour me contacter !"
-    accounts: "Vous pouvez me trouver sur une variété de sites Web sociaux; mon nom d'utilisateur est habituellement \"michaelravedoni\". Alphabétiquement:"
+    in_short: "Vedo il Web come uno strumento in grado di modellare una società aperta e decentralizzata. Il Web essendo per natura virtuale, vedo nella biblioteca lo strumento che collega il Web al mondo fisico. Insieme, questi due strumenti permettono di condividere le conoscenze di ognuno per tutti. Nello stesso tempo, mi interessano i nuovi strumenti di governanza condivisa e l'economia dei comuni che presto cambieranno il nostro modo di operare. Spero un giorno di sperimentare l'utopia di una società libera, basata sull'economia peer-to-peer, composta da piccole comunità locali legate tra loro dal web e da legami fisici fraterni."
+    contact: "Qualcosa da dire o chiedere? Usa i poteri dell'autostrada dell'informazione per contattarmi!"
+    accounts: "Potete trovarmi su una varietà di siti web sociali; il mio nome utente è di solito \"michaelravedoni\". In ordine alfabetico:"
+    about_site: Questo sito è generato automaticamente staticamente da Jekyll. Il codice sorgente è su GitHub. Se trovate un errore, fatemelo sapere.
+    licence: Se non specificato in maniera diversa, tutti i contenuti pubblici di questo sito (testi e immagini) sono concessi in licenza.
+
+biblio:
+  title: Biblioteche per il XXI secolo
+  description: La digitalizzazione della società, i rapidi cambiamenti sociali ed economici del XXI secolo rendono la cultura, la conoscenza e l'informazione risorse produttive sempre più essenziali. Per consentire ai cittadini di contribuire, innovare e vivere serenamente nella società della conoscenza e dell'informazione, è necessario dotarla degli strumenti necessari. La biblioteca è questo kit! Assicuriamoci quindi che la biblioteca si reinventi per affrontare le sfide che ci attendono.
+
+profile:
+  title: Un CV, due profili
+  description: "Le mie visite a diverse biblioteche, archivi e musei, una curiosità per le tendenze e le innovazioni, discussioni e migliaia di ore trascorse sul web mi hanno permesso di far emergere molte idee e modelli adatti al settore.<br/>Sono appassionato di questo modo di fare le cose: osservare, scambiare, mettere in discussione, dubitare, cercare, raccogliere, progettare e applicare. Ovunque io vada, questo processo mi accompagna per creare nuove idee o nuovi modelli. È in quest'ottica che sono appassionato delle tecnologie web e dell'economia dei comuni. Soprattutto, penso che la biblioteca sia al centro del modello sociale che permette la transizione verso la società dei comuni."
+  hire_for: Assumimi per…
+  biblio:
+    heading: Bibliothèque
+    description: La biblioteca del XXI secolo. La biblioteca come forza motrice della transizione verso l'economia dei comuni
+  web:
+    heading: Web et società dei comuni
+    description: Tecnologie web al servizio delle comunità per un'economia des comuni, P2P o attraverso il Co-Operativismo Aperto.
+
+publications:
+  title: Pubblicazioni e progetti
+  description: Qui di seguito trovate tutte le mie pubblicazioni, progetti e creazioni testuali.
+  heading:
+    repos: Progetti Web
+    creations: Creazioni
+    articles: Articoli
+    publications: Pubblicazioni
+  text:
+    numendil: Il mio taccuino personale, progetti e idee
+    confederal: Un'altra politica è possibile. ConfederAl offre una decifratura semplice con una visione alternativa del panorama politico svizzero.
+    articles: Blog pro
+    abstract: Riassunto esecutivo
+    read: Consultare
+    cite: Citare
+
+web:
+  title: Web et società dei comuni
+  description: In fase di sviluppo
+
+articles:
+  title: Articoli
+  description: Articoli e biglietti relativi al mondo delle biblioteche
+  text:
+    read: Legere
+    back: ritorno
+
+teaching:
+  title: Formazione
+  description: Mi piace trasmettere la mia passione per il Web, la biblioteca e l'economia dei comuni e collaborativa. Contattatemi se state cercando un relatore.
+  headings:
+    courses: Corsi e brevi corsi di formazione
+    lectures: Conferenze
+  text:
+    see: Vedere

@@ -1,0 +1,66 @@
+- title: "La bibliothèque plateforme : espace dédié à la création, au partage et à la diffusion de culture – exemple par la création d’un makerspace"
+  shortTitle: La bibliothèque plateforme
+  creators:
+    - lastName: Ravedoni
+      firstName: Michael
+      affiliation: Haute école de gestion de Genève
+    - lastName: Gorin
+      firstName: Michel
+      creatorType: Directeur
+      affiliation: Haute école de gestion de Genève
+  publisher: Haute école de gestion de Genève
+  place: Genève
+  language: fr
+  numPages: 98
+  itemType: "Thesis"
+  journal: null
+  chapter: null
+  volume: null
+  issue: null
+  pages: null
+  date: 2018-07-08
+  slug: "2018-tb-bibliotheque-plateforme"
+  pdf: https://michael.ravedoni.com/doc/2018-tb-bibliotheque-plateforme.pdf
+  html:
+  ebup: null
+  archive: null
+  doi: 10.5281/zenodo.1442777
+  isbn: null
+  issn: null
+  zoteroKey: 5KHD9T4B
+  rights: "Licence Creative Commons Attribution 4.0 International (CC-BY)"
+  cc: by
+  note: Travail de Bachelor
+  abstract: "L’avenir des bibliothèques est-il menacé ? Ce travail mandaté par la Médiathèque Valais tente d’y répondre en suggérant des éléments de réponses liés aux défis que les bibliothèques vont devoir relever durant ce XXI<sup>e</sup> siècle. Les modèles et les visions sélectionnés dans la littérature internationale ont permis d’exposer une vision globale et tournée vers l’avenir de la bibliothèque. La synthèse de ces découvertes aboutit sur la création d’un modèle général pour la bibliothèque : la bibliothèque plateforme. Le modèle est décliné sous la forme d'un exemple pour la création d’un makerspace à la Médiathèque Valais. Loin d’être une révolution, le modèle formalise et synthétise les avancées et les savoir-faire acquis depuis des centaines d’années par les bibliothécaires en considérant les évolutions de la société du XXI<sup>e</sup> siècle. La bibliothèque devient une plateforme facilitant la création, la diffusion et le partage de culture entre créateurs et utilisateurs de culture. Elle agit ensuite comme un hub communautaire ayant l’infrastructure nécessaire pour capitaliser et pérenniser cette culture."
+
+- title: Accélérateurs et détecteurs de particules
+  shortTitle: Accélérateurs et détecteurs de particules
+  creators:
+    - lastName: Ravedoni
+      firstName: Michael
+      affiliation: Lycée-Collège de la Planta
+    - lastName: Rey
+      firstName: Stéphane
+      creatorType: Directeur
+      affiliation: Lycée-Collège de la Planta
+  publisher: Lycée-Collège de la Planta
+  place: Sion
+  language: fr
+  numPages: 61
+  itemType: "Thesis"
+  journal: null
+  volume: null
+  issue: null
+  pages: null
+  date: 2013-10-01
+  slug: "2013-tm-particules"
+  pdf: https://michael.ravedoni.com/doc/ravedoni-2013-tm-particules.pdf
+  archive: null
+  doi: null
+  isbn: null
+  issn: null
+  zoteroKey: KH3ASQG4
+  rights: "Licence Creative Commons Attribution 4.0 International (CC-BY)"
+  cc: by
+  note: Travail de Maturité
+  abstract: "Ce travail est une introduction à la physique des particules. Plus particulièrement, il présente le fonctionnement de base des accélérateurs et des détecteurs de particules."

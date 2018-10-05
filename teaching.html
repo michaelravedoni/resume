@@ -1,0 +1,84 @@
+---
+layout: default
+title: menu.teaching
+
+namespace: teaching
+permalink: /teaching/
+
+courses:
+- heading: Bibliothèque plateforme
+  description: Dans le cadre du cours 7311n - Relation de service et accueil de la Haute école de gestion de Genève
+  slug: 7311n-bibliotheque-plateforme
+  period: 2018
+  pdf: null
+  notes: null
+  site: https://docs.google.com/presentation/d/1Af6xaHgvZGIqfjY7-ts9NhW5rHIoC72xWpXSvua-05M
+  localisation: Haute école de gestion de Genève
+
+lectures: null
+---
+
+<article id="content" class="uk-container uk-section">
+	<h1 property="schema:name">{% t teaching.title %}</h1>
+	<div property="schema:description">
+		<p>{% t teaching.description %}&nbsp;→&nbsp;<a href="{% tl about%}#contact"><i class="fas fa-at"></i>&nbsp;contact</a></p>
+	</div>
+
+	{% if page.courses %}
+	<section class="uk-section uk-section-small uk-container uk-container-small">
+		<h2>{% t teaching.headings.courses %}</h2>
+		{% for c in page.courses %}
+		<div class="mr-formation uk-margin-small-bottom" typeof="schema:Course" resource="{{site.url}}/formation/{{c.slug}}">
+			<div>
+				<h3 class="mr-publication-title uk-h3 uk-text-nowrap" property="schema:name" title="{{c.heading }}">
+					{{c.heading | truncate: 100}}
+					<span class="uk-text-small uk-float-right">
+						{% if c.pdf %}<span class="mr-formation-pdf"><a href="{{c.pdf}}" target="_blank"><i class="far fa-file-pdf"></i> PDF</a> — </span>{% endif %}
+						{% if c.site %}<span class="mr-formation-site"><a href="{{c.site}}" target="_blank"><i class="fas fa-link"></i> {% t teaching.text.see %}</a></span>{% endif %}
+						{% if c.notes %}<span class="mr-formation-site"><a href="{{c.notes}}" target="_blank"><i class="far fa-comment-alt"></i> Notes</a></span>{% endif %}
+					</span>
+				</h3>
+			</div>
+			<div class="mr-formation-description">{{c.description}}</div>
+			<div class="mr-formation-details uk-text-meta">
+				{% if c.localisation %}<span class="mr-formation-localisation">{{c.localisation}}.</span>{% endif %}
+				{% if c.localisation %}<span class="mr-formation-date">{{c.period}}</span>{% endif %}
+			</div>
+			<div class="mr-formation-links uk-text-meta">
+				{% if c.pdf %}<span class="mr-formation-pdf"><a href="{{c.pdf}}" target="_blank"><i class="far fa-file-pdf"></i> PDF</a></span>{% endif %}
+				{% if c.site %}<span class="mr-formation-site"><a href="{{c.site}}" target="_blank"><i class="fas fa-link"></i> {% t teaching.text.see %}</a></span>{% endif %}
+			</div>
+		</div>
+		{% endfor %}
+	</section>
+	{% endif %}
+
+	{% if page.lectures %}
+	<section class="uk-container uk-section uk-section-small">
+		<h2>{% t teaching.headings.lectures %}</h2>
+		{% for c in page.courses %}
+		<div class="mr-formation uk-margin-small-bottom" typeof="schema:Course" resource="{{site.url}}/formation/{{c.slug}}">
+			<div>
+				<h3 class="mr-publication-title uk-h3 uk-text-nowrap" property="schema:name" title="{{c.heading }}">
+					{{c.heading | truncate: 100}}
+					<span class="uk-text-small uk-float-right">
+						{% if c.pdf %}<span class="mr-formation-pdf"><a href="{{c.pdf}}" target="_blank"><i class="far fa-file-pdf"></i> PDF</a> — </span>{% endif %}
+						{% if c.site %}<span class="mr-formation-site"><a href="{{c.site}}" target="_blank"><i class="fas fa-link"></i> {% t teaching.text.see %}</a></span>{% endif %}
+					</span>
+				</h3>
+			</div>
+			<div class="mr-formation-description">{{c.description}}</div>
+			<div class="mr-formation-details uk-text-meta">
+				{% if c.localisation %}<span class="mr-formation-localisation">{{c.localisation}}.</span>{% endif %}
+				{% if c.localisation %}<span class="mr-formation-date">{{c.period}}</span>{% endif %}
+			</div>
+			<div class="mr-formation-links uk-text-meta">
+				{% if c.pdf %}<span class="mr-formation-pdf"><a href="{{c.pdf}}" target="_blank"><i class="far fa-file-pdf"></i> PDF</a></span>{% endif %}
+				{% if c.site %}<span class="mr-formation-site"><a href="{{c.site}}" target="_blank"><i class="fas fa-link"></i> {% t teaching.text.see %}</a></span>{% endif %}
+			</div>
+		</div>
+		{% endfor %}
+	</section>
+	{% endif %}
+
+</article>

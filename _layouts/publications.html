@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html xml:lang="{{site.lang}}" lang="{{site.lang}}" prefix="schema: http://schema.org/ og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article# bibo: http://purl.org/ontology/bibo/ sioc: http://rdfs.org/sioc/ns#" resource="{{site.url}}" typeof="schema:WebPage">
+
+{% assign pub = site.data.publications | where:'slug', page.slug | first %}
+
+<head>
+	<title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+	{% include head-core.html %}
+
+	<!-- CSS -->
+	<link id="theme-style" rel="stylesheet" href="{{ site.site_url }}/css/articles-style.css">
+	<script src='https://unpkg.com/at-article@latest/dist/at-article.js'></script>
+
+	<!-- Academicons -->
+	<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+	<!-- Meta -->
+	<meta property="dc:title"content="{{pub.title}}">
+	{% if pub.publisher %}<meta name="dc.publisher" content="{{pub.publisher}}" />{% endif %}
+	{% if pub.volume %}<meta name="dc.citation.volume" content="{{pub.volume}}" />{% endif %}
+	<meta name="dc.issued" content="{{pub.date | date: "%Y/%m/%d"}}" />
+	<meta name="dc.date" content="{{pub.date | date: "%Y/%m/%d"}}" />
+	<meta name="dc.identifier" content="{{site.url}}/{{page.url}}" />
+	{% if pub.doi %}<meta name="dc.identifier" content="{{pub.doi}}" />{% endif %}
+	{% if pub.itemType %}<meta name="dc.type" content="{{pub.itemType | downcase}}" />{% endif %}
+	{% if pub.language %}<meta name="dc.language" content="{{pub.language}}" />{% endif %}
+	{% if pub.rights %}<meta name="dc.rights" content="{{pub.rights}}" />{% endif %}
+
+	<meta name="citation_title"content="{{pub.title}}">
+	{% for creator in pub.creators %}
+	<meta name="citation_author" content="{{creator.lastName}}, {{creator.firstName}}">
+	<meta name="DC.creator" content="{{creator.firstName}} {{creator.lastName}}" />
+	{% endfor %}
+	<meta name="citation_publication_date" content="{{pub.date | date: "%Y/%m/%d"}}">
+	{% if pub.journal %}<meta name="citation_journal_title" content="{{pub.journal}}">{% endif %}
+	{% if pub.volume %}<meta name="citation_volume" property="bibo:volume" content="{{pub.volume}}" datatype="xsd:integer" resource="{{site.url}}/{{page.url}}">{% endif %}
+	{% if pub.issue %}<meta name="citation_issue" property="bibo:issue" content="{{pub.issue}}" datatype="xsd:integer" resource="{{site.url}}/{{page.url}}">{% endif %}
+	{% if pub.pages %}
+	{% assign pagesSplit = pub.pages | split: "-" %}
+	<meta name="citation_firstpage" property="bibo:pageStart"content="{{pagesSplit.first}}" datatype="xsd:integer" resource="{{site.url}}/{{page.url}}">
+	<meta name="citation_lastpage" property="bibo:pageEnd" content="{{pagesSplit.last}}" datatype="xsd:integer" resource="{{site.url}}/{{page.url}}">
+	{% endif %}
+	<meta name="citation_pdf_url" content="{{pub.pdf}}">
+	<meta name="citation_abstract_html_url" content="{{site.url}}/{{page.url}}">
+	{% if pub.language %}<meta name="citation_language" content="{{pub.language}}" />{% endif %}
+	{% if pub.doi %}<meta name="citation_doi" content="{{pub.doi}}" />{% endif %}
+	{% if pub.issn %}<meta name="citation_issn" content="{{pub.issn}}" />{% endif %}
+	{% if pub.isbn %}<meta name="citation_isbn" content="{{pub.isbn}}" />{% endif %}
+	{% if pub.pmid %}<meta name="citation_pmid" content="{{pub.pmid}}" />{% endif %}
+
+	{% if pub.itemType %}<meta property="og:type" content="{{pub.itemType | downcase}}">{% endif %}
+	<meta property="og:title" content="{{pub.title}}">
+	{% if pub.abstract %}<meta property="og:description" content="{{pub.abstract | truncate:"150"}}">{% endif %}
+	<meta property="og:url" content="{{site.url}}/{{page.url}}">
+
+</head>
+
+<body about="" id="article" typeof="schema:CreativeWork sioc:Post prov:Entity foaf:Document as:Article" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ dctypes: http://purl.org/dc/dcmitype/ foaf: http://xmlns.com/foaf/0.1/ pimspace: http://www.w3.org/ns/pim/space# cc: https://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# mem: http://mementoweb.org/ns# qb: http://purl.org/linked-data/cube# schema: http://schema.org/ void: http://rdfs.org/ns/void# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# bibo: http://purl.org/ontology/bibo/ sioc: http://rdfs.org/sioc/ns# doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp# solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio# rel: https://www.w3.org/ns/iana/link-relations/relation#">
+	<div class="uk-offcanvas-content">
+
+	<header>
+		{% include header-menu.html %}
+	</header>
+	<main>
+		<div class="uk-margin-small-top uk-margin-left"><a class="uk-button uk-button-default uk-button-secondary uk-button-small uk-margin-top-large" href="{% tl publications %}">&larr; {% t articles.text.back %}</a></div>
+
+		<section class="uk-margin-small-top uk-container uk-text-center uk-padding-remove-bottom">
+			{% if pub.note %}<div class="uk-label uk-text-small">{{pub.note}}</div>{% endif %}
+			{% if pub.cc %}<div class="uk-text-large uk-margin-top" title="{{pub.rights}}"><a href="https://creativecommons.org/licenses/{{pub.cc}}/4.0/"><i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-{{pub.cc|downcase}}"></i></a></div>{% endif %}
+			<h1 class="">{{pub.title}}</h1>
+			<div class="mr-publication-creators">
+			{% for creator in pub.creators %}
+				<span class="mr-publication-creator">{{creator.firstName}} {{creator.lastName}}{% if creator.creatorType %} ({{creator.creatorType}}){% endif %}{% if forloop.last %}{% else %}, {% endif %}</span>
+			{% endfor %}
+			</div>
+			<div class="mr-publication-date uk-text-muted">{{pub.date | date: "%d.%m.%Y"}}</div>
+			<hr class="mr-articles-hgroup-divider uk-divider-icon">
+		</section>
+
+		<section class="uk-section uk-section-small uk-container">
+			<div class="uk-grid-match" uk-grid>
+				<div class="uk-width-2-3@m">
+					{% if pub.abstract %}
+					<div class="uk-h5">{% t publications.text.abstract %}</div>
+					<div class="">{{pub.abstract | md}}</div>
+					{% endif %}
+				</div>
+				<div class="uk-width-1-3@m">
+					<div class="uk-tile uk-tile-small uk-tile-muted">
+						<div class="uk-h5 uk-margin-remove-bottom">{% t publications.text.read %}</div>
+						{% if pub.pdf %}<div class="mr-publication-pdf"><a href="{{pub.pdf}}"><i class="ai ai-open-access"></i> PDF Full-text</a></div>{% endif %}
+						{% if pub.html %}<div class="mr-publication-html"><a href="{{pub.html}}"><i class="fab fa-html5"></i> HTML Full-text</a></div>{% endif %}
+						{% if pub.epub %}<div class="mr-publication-epub"><a href="{{pub.epub}}"><i class="fab fa-leanpub"></i> EPUB</a></div>{% endif %}
+						{% if pub.doi %}<div class="mr-publication-doi"><a href="https://doi.org/{{pub.doi}}" target="_blank"><i class="ai ai-doi"></i> {{pub.doi}}</a></div>{% endif %}
+						{% if pub.isbn %}<div class="mr-publication-isbn">{{pub.isbn}}</div>{% endif %}
+						<div class="uk-h5 uk-margin-remove-bottom">{% t publications.text.cite %}</div>
+						{% if pub.zoteroKey %}
+						<div class="mr-publication-zotero-key">
+							<i class="ai ai-zotero"></i>
+							<a href="https://api.zotero.org/users/2753887/items/{{pub.zoteroKey}}?key=bAy4ngNG2dhuMkWSHwqw8vot&format=bibtex">BibTex</a> -
+							<a href="https://api.zotero.org/users/2753887/items/{{pub.zoteroKey}}?key=bAy4ngNG2dhuMkWSHwqw8vot&format=csljson">CSL</a> -
+							<a href="https://api.zotero.org/users/2753887/items/{{pub.zoteroKey}}?key=bAy4ngNG2dhuMkWSHwqw8vot&format=rdf_bibliontology">Bibo</a>
+						</div>
+						<!--<div class="mr-publication-bib uk-margin-top">
+							<at-reference type="inline" title="{{pub.title}}" creator="{% for creator in pub.creators %}{{creator.firstName}} {{creator.lastName}}{% if creator.creatorType %} ({{creator.creatorType}}){% endif %}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}" date="{{pub.date | date: "%Y"}}" publisher="{{pub.publisher}}" place="{{pub.place}}" numPages="{{pub.numPages}}" pages="{{pub.pages}}" volume="{{pub.volume}}" issue="{{pub.issue}}" chapter="{{pub.chapter}}" language="{{pub.language}}" isbn="{{pub.isbn}}" issn="{{pub.issn}}" doi="{{pub.doi}}" pmid="{{pub.pmid}}" url="{{pub.pdf}}"></at-reference>
+						</div>-->
+						{% endif %}
+					</div>
+				</div>
+			</div>
+		</section>
+
+		{% if page.content %}
+		<section class="uk-container" id="publication-content">
+			{{page.content}}
+		</section>
+		{% endif %}
+
+	</main>
+	{% include footer.html %}
+ </div>
+
+</body>
+</html>

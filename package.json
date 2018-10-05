@@ -5,10 +5,11 @@
   "main": "/_site",
   "dependencies": {},
   "devDependencies": {
-    "ftp-deploy": "^1.2.2"
+    "ftp-deploy": "^1.2.2",
+    "run-run": "^1.1.0"
   },
   "scripts": {
-    "deploy": "node deploy",
+    "deploy": "npm run build && node deploy",
     "build": "bundle exec jekyll build --config _config.yml,_config-prod.yml",
     "dev": "bundle exec jekyll serve --watch"
   },

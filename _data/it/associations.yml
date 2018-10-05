@@ -1,0 +1,8 @@
+# Associations
+# comment out the urls if you do not wish to display them
+
+- organization: Centre athlétique de Sion
+  role: Volontario, webmaster e allenatore
+  year: 2008 &mdash; 2017
+  url: http://casion.ch
+  summary: "Come ex atleta, partecipo alla vita del mio club principalmente come webmaster, consulente informatico, aiutante ed allenatore. <ul><li><li>Partecipazione all'organizzazione di riunioni di atletica leggera da 4 a 8 volte all'anno: pianificazione della riunione, creazione di sistemi informativi, registrazione ed elaborazione dei risultati.</li><li>Webmaster del sito web del CA Sion <a href='https://casion.ch'><i class='fa fa-external-link-alt'></i></a></li><li>Creazione e gestione di un database e di un'interfaccia <a href='https://casion.ch/statistiques'><i class='fa fa-external-link-alt'></i></a> per i risultati sportivi del Centro Atletico di Sion. Basato su StatAthlé.</li></ul>"

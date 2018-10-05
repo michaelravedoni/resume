@@ -3,6 +3,7 @@ layout: resume
 
 namespace: cv
 permalink: /cv/
+title: menu.cv
 
 # SEO
 seo:
@@ -54,6 +55,8 @@ resume_social_links:
   # resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
   resume_linkedin_url:          "https://www.linkedin.com/in/michael-ravedoni/"
+  resume_orcid_url:             "https://orcid.org/0000-0003-3018-1538"
+  resume_rg_url:                "https://www.researchgate.net/profile/Michael_Ravedoni"
   # resume_instagram_url:         "insert your Instagram URL here"
   resume_website_url:           "https://michael.ravedoni.com"
 resume_print_social_links:      true
@@ -86,6 +89,12 @@ resume_theme:                   developer
 				{% if page.resume_social_links.resume_github_url %}
 				<li class="list-inline-item"><a itemprop="sameAs" href="{{ page.resume_social_links.resume_github_url }}" target="_blank" rel="noopener"><i class="fab fa-github-alt"></i></a></li>
 				{% endif %}
+				{% if page.resume_social_links.resume_rg_url %}
+				<li class="list-inline-item"><a itemprop="sameAs" href="{{ page.resume_social_links.resume_rg_url }}" target="_blank" rel="noopener"><i class="fab fa-researchgate"></i></a></li>
+				{% endif %}
+				{% if page.resume_social_links.resume_orcid_url %}
+				<li class="list-inline-item"><a itemprop="sameAs" href="{{ page.resume_social_links.resume_orcid_url }}" target="_blank" rel="noopener"><i class="fas fa-info-circle"></i></a></li>
+				{% endif %}
 				{% if page.resume_social_links.resume_hacker_url %}
 				<li class="list-inline-item" itemprop="sameAs" class="last-item"><a href="#"><i class="fab fa-hacker-news" target="_blank" rel="noopener"></i></a></li>
 				{% endif %}
@@ -93,7 +102,7 @@ resume_theme:                   developer
 			{% endif %}
 		</div><!--//profile-->
 		{% if page.resume_looking_for_work == 'yes' %}
-		<a class="btn btn-cta-secondary float-right" href="mailto:{{ page.resume_contact_email }}" target="_blank" rel="noopener"><i class="fas fa-paper-plane"></i> {% t cv.header.contact_me %}</a>
+		<a class="btn btn-cta-secondary float-right" href="mailto:{{ page.resume_contact_email | encode_email }}" target="_blank" rel="noopener"><i class="fas fa-paper-plane"></i> {% t cv.header.contact_me %}</a>
 		{% elsif page.resume_looking_for_work == 'no' %}
 		<a class="btn btn-cta-primary float-right">{% t cv.header.looking_work_now %}</a>
 		{% else %}
@@ -102,9 +111,10 @@ resume_theme:                   developer
 </header><!--//header-->
 
 <div class="text-center uk-margin-top">
-	<a href="{{site.site_url}}/cv" class="uk-button uk-button-small uk-button-secondary">Français</a> 
-	<a href="{{site.site_url}}/de/cv" class="uk-button uk-button-small uk-button-secondary">Deutsch</a>
-	<a href="{{site.site_url}}/en/cv" class="uk-button uk-button-small uk-button-secondary">English</a>
+	<a href="{{site.site_url}}/cv/" class="uk-button uk-button-small uk-button-secondary">Français</a>
+	<a href="{{site.site_url}}/de/cv/" class="uk-button uk-button-small uk-button-secondary">Deutsch</a>
+	<a href="{{site.site_url}}/it/cv/" class="uk-button uk-button-small uk-button-secondary">Italiano</a>
+	<a href="{{site.site_url}}/en/cv/" class="uk-button uk-button-small uk-button-secondary">English</a>
 </div>
 
 <div class="container sections-wrapper">
@@ -240,7 +250,7 @@ resume_theme:                   developer
 							<li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>{{page.resume_contact_address}}</li>
 							{% endif %}
 							{% if resume_header_contact_info %}
-							<li><i class="fas fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:{{ resume_contact_email }}">{{resume_contact_email }}</a></li>
+							<li><i class="fas fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:{{ resume_contact_email | encode_email }}">{{resume_contact_email }}</a></li>
 							{% endif %}
 							{% if page.resume_contact_site %}
 							<li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="{{page.resume_contact_site}}">{{page.resume_contact_site}}</a></li>

@@ -3,22 +3,24 @@
 		<div class="uk-navbar">
 			<div class="uk-navbar-left">
 
-				<a class="uk-navbar-item uk-logo uk-visible@s" href="/">Michael Ravedoni</a>
-				<a class="uk-navbar-item uk-logo uk-hidden@s" href="/">MR</a>
+				<a class="uk-navbar-item uk-logo uk-visible@s" href="{% tl home %}">Michael Ravedoni</a>
+				<a class="uk-navbar-item uk-logo uk-hidden@s" href="{% tl home %}">MR</a>
 
 				<ul class="uk-navbar-nav uk-visible@m">
 					<li><a href="{% tl cv %}" title="Michael Ravedoni’s Curriculum Vitae">CV</a></li>
 					<li><a href="{% tl profile %}" title="About Michael Ravedoni">{% t menu.profile %}</a></li>
 					<li><a href="{% tl publications %}" title="Michael’s publications">{% t menu.publications %}</a></li>
 					<li><a href="{% tl articles %}" title="Michael’s articles">{% t menu.articles %}</a></li>
+					<li><a href="{% tl teaching %}" title="Teaching">{% t menu.teaching %}</a></li>
 					<li><a href="{% tl about %}" title="About">{% t menu.about %}</a></li>
 				</ul>
 			</div>
 			<div class="uk-navbar-right">
 				<ul class="uk-navbar-nav uk-visible@m">
-					<li><a href="{{site.baseurl_root}}{{page.url}}" title="En français">FR</a></li>
-					<li><a href="{{site.baseurl_root}}/de{{page.url}}" title="Auf Deutsch">DE</a></li>
-					<li><a href="{{site.baseurl_root}}/en{{page.url}}" title="In english">EN</a></li>
+					<li><a class="uk-padding-remove-right" href="{{site.baseurl_root}}{{page.url}}" title="En français">FR</a></li>
+					<li><a class="uk-padding-remove-right" href="{{site.baseurl_root}}/de{{page.url}}" title="Auf Deutsch">DE</a></li>
+					<li><a class="uk-padding-remove-right" href="{{site.baseurl_root}}/it{{page.url}}" title="In italiano">IT</a></li>
+					<li><a class="uk-padding-remove-right" href="{{site.baseurl_root}}/en{{page.url}}" title="In english">EN</a></li>
 				</ul>
 				<ul class="uk-navbar-nav uk-hidden@m">
 					<li><a class="uk-navbar-item" type="button" uk-toggle="target: #offcanvas-slide"><i class="fa fas fa-lg fa-bars"></i></a></li>
@@ -37,6 +39,7 @@
 			<li><a href="{% tl profile %}" title="About Michael Ravedoni">{% t menu.profile %}</a></li>
 			<li><a href="{% tl publications %}" title="Michael’s publications">{% t menu.publications %}</a></li>
 			<li><a href="{% tl articles %}" title="Michael’s articles">{% t menu.articles %}</a></li>
+			<li><a href="{% tl teaching %}" title="Teaching">{% t menu.teaching %}</a></li>
 			<li><a href="{% tl about %}" title="About">{% t menu.about %}</a></li>
 			<li class="uk-nav-divider"></li>
 			<li>
