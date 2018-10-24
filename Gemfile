@@ -6,3 +6,4 @@ gem 'jekyll-multiple-languages-plugin'
 gem 'jekyll-sitemap'
 gem 'jekyll-admin', group: :jekyll_plugins
 gem 'jekyll-email-protect'
+gem 'jekyll-pwa-plugin'

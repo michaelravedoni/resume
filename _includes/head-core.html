@@ -5,8 +5,8 @@
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
-<link rel="meta" type="application/rdf+xml" title="Contact" href="card.rdf" />
-<link rel="meta" type="application/rdf+xml" title="FOAF" href="card.rdf"/>
+<link rel="meta" type="application/rdf+xml" title="Contact" href="https://michaelravedoni.inrupt.net/profile/card" />
+<link rel="meta" type="application/rdf+xml" title="FOAF" href="https://michaelravedoni.inrupt.net/profile/card"/>
 
 <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico" />
 <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
@@ -23,7 +23,8 @@
 <!-- <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic|Montserrat:400,700' rel='stylesheet' type='text/css'> -->
 <link rel="preload" href="https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic|Montserrat:400,700" as="style" onload="this.rel='stylesheet'">
 
-<!-- Theme CSS -->
+<!-- CSS -->
+<!-- <link id="resume-style" rel="stylesheet" href="{{ site.site_url }}/assets/css/app.css"> -->
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.39/css/uikit.min.css" /> -->
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.39/css/uikit.min.css" as="style" onload="this.rel='stylesheet'">
 <link id="theme-style" rel="stylesheet" href="{{ site.site_url }}/css/uikit.css">

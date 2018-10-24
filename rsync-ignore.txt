@@ -1,0 +1,6 @@
+.DS_Store
+deploy.js
+.env
+env.json
+rsync-ignore.txt
+.user.ini

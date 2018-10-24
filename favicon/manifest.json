@@ -1,5 +1,10 @@
+---
+layout: null
+---
+
+
 {
-    "name": "",
+    "name": "Michael Ravedoni",
     "icons": [
         {
             "src": "/favicon/android-chrome-192x192.png",
@@ -14,5 +19,9 @@
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "display": "standalone"
+    "display": "browser",
+    "start_url": "/",
+    "lang": "{{site.lang}}",
+    "short_name": "MR",
+    "description": "Michael Ravedoni's website"
 }

@@ -12,9 +12,9 @@
 	<main>
 		<section class="mr-articles-hero uk-height-medium uk-responsive-width uk-inline" id="unsplash">
 			{% if page.unsplash %}
-			<img src="https://source.unsplash.com/{{ page.unsplash }}/2500x500" uk-parallax="blur: 10; grayscale: 100;" />
+			<img src="https://source.unsplash.com/{{ page.unsplash }}/2500x500" />
 			{% else %}
-			<img src="{{ page.image }}" uk-parallax="blur:10; grayscale:10;" />
+			<img src="{{ page.image }}" />
 			{% endif %}
 			<div class="uk-overlay uk-position-top-left uk-visible"><a class="uk-button uk-button-default uk-button-secondary uk-button-small" href="{% tl articles %}">&larr; {% t articles.text.back %}</a></div>
 			{% if page.unsplash %}

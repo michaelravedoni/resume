@@ -3,15 +3,28 @@
   "version": "1.2.0",
   "description": "Michael Ravedoni' personal website",
   "main": "/_site",
-  "dependencies": {},
+  "dependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "autoprefixer": "^5.2.0",
+    "clean-css-brunch": "^1.0",
+    "css-brunch": "^1.0",
+    "javascript-brunch": "^1.0",
+    "postcss-brunch": "^0.4.1",
+    "uglify-js-brunch": "^2.10.0"
+  },
   "devDependencies": {
-    "ftp-deploy": "^1.2.2",
-    "run-run": "^1.1.0"
+    "brunch": "^2.10.17",
+    "run-run": "^1.1.0",
+    "sass-brunch": "^1.9.2"
   },
   "scripts": {
-    "deploy": "npm run build && node deploy",
     "build": "bundle exec jekyll build --config _config.yml,_config-prod.yml",
-    "dev": "bundle exec jekyll serve --watch"
+    "dev": "bundle exec jekyll serve --watch",
+    "start-brunch": "sudo brunch watch --server",
+    "build-brunch": "sudo brunch build --production",
+    "deploy": "cat env.json | run-run -- 'npm run build && rsync -e ssh -avzuhcp _site/ {FTP_HOST} --exclude-from 'rsync-ignore.txt' --delete'",
+    "deploy-dry": "cat env.json | run-run -- 'rsync -e ssh -avzuhcp _site/ {FTP_HOST} --exclude-from 'rsync-ignore.txt' --dry-run --delete'",
+    "deploy-js": "npm run build && node deploy"
   },
   "repository": {
     "type": "git",

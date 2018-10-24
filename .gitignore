@@ -83,3 +83,4 @@ $RECYCLE.BIN/
 _vendor
 package-lock.json
 deploy.js
+env.json

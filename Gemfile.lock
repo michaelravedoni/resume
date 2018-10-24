@@ -125,6 +125,7 @@ GEM
     jekyll-optional-front-matter (0.2.0)
       jekyll (~> 3.0)
     jekyll-paginate (1.1.0)
+    jekyll-pwa-plugin (2.1.1)
     jekyll-readme-index (0.1.0)
       jekyll (~> 3.0)
     jekyll-redirect-from (0.12.1)
@@ -245,7 +246,8 @@ DEPENDENCIES
   jekyll-assets
   jekyll-email-protect
   jekyll-multiple-languages-plugin
+  jekyll-pwa-plugin
   jekyll-sitemap
 
 BUNDLED WITH
-   1.16.0
+   1.16.1

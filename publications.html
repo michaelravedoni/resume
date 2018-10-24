@@ -32,14 +32,14 @@ permalink: /publications/
 			<div class="uk-width-2-3@m">
 				<h2>{% t publications.heading.publications %}</h2>
 				{% for pub in site.data.publications %}
-				<div class="mr-publications uk-margin-small-bottom uk-visible-toggle" typeof="schema:ScholarlyArticle" resource="{{site.url}}/publications/{{pub.slug}}">
+				<div class="mr-publications uk-margin-small-bottom" typeof="schema:ScholarlyArticle" resource="{{site.url}}/publications/{{pub.slug}}">
 					<div>
-						<span class="mr-publication-title uk-h6 uk-text-nowrap" property="schema:name" title="{{pub.title }}"><a href="/publications/{{pub.slug}}/">{{pub.title | truncate: 100}}</a></span>
+						<span class="mr-publication-title uk-h6 uk-text-nowrap" property="schema:headline" title="{{pub.title }}"><a href="/publications/{{pub.slug}}/">{{pub.title | truncate: 100}}</a></span>
 						<span class="uk-label uk-text-lowercase uk-text-small uk-float-right">{{pub.itemType}}</span>
 					</div>
 					<div class="mr-publication-details uk-text-meta">
 						<span class="mr-publication-date uk-float-right">{{pub.date | date: "%Y"}}</span>
-						<span class="mr-publication-url uk-invisible-hover"><a href="{{pub.pdf}}" target="_blank"><i class="far fa-file-pdf"></i></a></span>
+						<span class="mr-publication-url"><a href="{{pub.pdf}}" target="_blank"><i class="far fa-file-pdf"></i></a></span>
 						<span>{{pub.publisher}}.</span>
 						{% for creator in pub.creators %}
 						<span class="mr-publication-creator">{{creator.firstName}} {{creator.lastName}}{% if creator.creatorType %} ({{creator.creatorType}}){% endif %}{% if forloop.last %}{% else %}, {% endif %}</span>

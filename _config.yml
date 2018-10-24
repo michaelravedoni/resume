@@ -12,13 +12,15 @@ site_url      : "http://localhost:4000" # the base hostname & protocol for your 
 url           : "http://localhost:4000"
 environment   : development
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'LICENSE', 'travis.yml', 'node_modules', 'package-lock.json', 'package.json', 'deploy.js', 'deploy-model.js']
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'LICENSE', 'travis.yml', 'node_modules', 'package-lock.json', 'package.json', 'deploy.js', 'deploy-model.js', 'env.json', 'env-model.json', 'brunch']
 
 # Build settings
 markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
+#source: app/src
+#destination: app/www
 
 # Langage
 
@@ -38,6 +40,16 @@ collections:
     output: true
     permalink: /publications/2018-tb-bibliotheque-plateforme/:path/
 
+# PWA
+pwa:
+  sw_src_filepath: service-worker.js # Optional
+  dest_js_directory: /js # Required
+  precache_glob_patterns: # Optional
+    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
+    - index.html
+  precache_glob_ignores: # Optional
+    - sw-register.js
+
 ################################
 # Jekyll Plugins
 ################################
@@ -48,6 +60,7 @@ gems:
   - jekyll-multiple-languages-plugin
   - jekyll-sitemap
   - jekyll-email-protect
+  - jekyll-pwa-plugin
 
 # Note: when editing locally, remember to restart
 # your Jekyll server when you edit this file. Changes

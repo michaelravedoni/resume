@@ -1,0 +1,11 @@
+/* "Reset" styles and SCSS reusable components */
+@import "resume-main-style/normalize";
+@import "resume-main-style/mixins";
+@import "resume-main-style/variables";
+
+// Generic site base & layout styles
+@import "resume-main-style/base";
+@import "resume-main-style/layout";
+
+// Layouts
+@import "resume-main-style/resume";

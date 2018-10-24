@@ -16,11 +16,11 @@ toc:
     - heading: Bibliothèques du XXI<sup>e</sup> siècle
       page: 3
       pdfPage: 11
-      slug: null
+      slug: 03-bibliotheques-xxi-siecle
     - heading: Défis pour les bibliothèques du XXI<sup>e</sup> siècle
       page: 11
       pdfPage: 19
-      slug: null
+      slug: 04-defis-bibliotheques-xxi-siecle
   models:
     chapter:
       heading: Modèles existants
