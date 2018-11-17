@@ -50,9 +50,6 @@ Enfin, **la bibliothèque existe avant tout afin de créer du lien entre les c
 
 Voilà les trois catégories de missions que l'on peut tirer des chartes et cadres légaux traditionnels. Cette classification peut bien évidemment être sujette à discussion et à modification, mais elle permet d'aisément se faire une idée globale des missions des bibliothèques.
 
-## Antiquité
-<at-callout type="block">Lire l'article <i><a href="{# site.baseurl #}{# link _articles/les-bibliotheques-antiques.md #}">Les bibliothèques antiques</a></i> pour plus de détails.</at-callout>
-
 ## Proposition de définition
 Si les chartes internationales de l'IFLA et de l'UNESCO proposent une définition de la bibliothèque (et plus particulièrement de la bibliothèque publique), elles manquent à mon goût de passion. Ainsi, l’<i>UNESCO</i> et l’<i>International Federation of Library Associations and Institutions</i> (IFLA) définissent en 2001 la bibliothèque publique en ces termes <at-reference creator="IFLA" date="2001" title="Les services de la bibliothèque publique: principes directeurs de l’IFLA-Unesco" place="Paris" publisher="ABF" isbn="978-2-900177-21-1" itemType="book"></at-reference> :
 
@@ -62,7 +59,7 @@ Le <i>Manifeste de l'UNESCO sur la bibliothèque publique</i> de 1994, fait preu
 <at-blockquote type="default">[…] la bibliothèque publique est une force vivante au service de l'éducation, de la culture et de l'information et un moyen essentiel d'élever dans les esprits les défenses de la paix et de contribuer au progrès spirituel de l'humanité.</at-blockquote>
 
 Je pense sincèrement que nous pouvons trouver une définition plus fédératrice de ce qu'est une bibliothèque. Avec le développement effectué jusqu'ici dans cet article, je propose la définition de la bibliothèque suivante :
-<at-block type="definition" heading="Bibliothèque">La bibliothèque est un outil faisant partie de l’institution ou de la communauté à laquelle elle appartient ayant sa propre raison d’être.</at-block>
+<at-block type="definition" heading="Bibliothèque">La bibliothèque est un outil faisant partie de l’institution ou de la communauté à laquelle elle appartient ayant sa propre raison d’être et qui sert trois missions principales: agréger l'information, mettre à disposition et créer du lien.</at-block>
 
 Si, à première vue cette définition paraît plate de sens, il n'en est pourtant rien :
 

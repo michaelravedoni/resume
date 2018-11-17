@@ -14,7 +14,8 @@ Nous entrons dans la société post-industrielle et plus précisément dans 
 
 Pour ce qui est de la synthèse des chapitres 5 et 6, nous la présentons sous forme de recommandations. Nous les avons classées par thèmes: vision, espaces, apprentissage et connaissance, mise à disposition, accès et compétences.
 
-## Vision
+**Vision**
+
 1. Adopter la vision de la bibliothèque comme :
     1. un outil créé conjointement par la communauté et les bibliothécaires à laquelle elle appartient ;
     2. un espace physique ou virtuel intégré dans l’espace public dédié à l’inspiration, la découverte et à l’apprentissage permettant le partage à l’intérieur et à l’extérieur de la communauté ;
@@ -24,13 +25,15 @@ Pour ce qui est de la synthèse des chapitres 5 et 6, nous la présentons sous
 3. Changer l’appellation des clients, usagers ou lecteurs en membres de la communauté ;
 4. Axer non plus l’activité et la mission principale de la bibliothèque sur les collections, mais sur la communauté à laquelle elle appartient : la communauté devient la collection.
 
-## Espaces
+    **Espaces**
+
 5. Concevoir la bibliothèque comme un troisième-lieu, un socle nécessaire pour la création d’espaces<at-note>Ici, <i>espace</i> n’est pas à comprendre au sens d’espace délimité spatialement, mais comme des concepts qui emplissent un espace physique ou virtuel.</at-note> du vivre ensemble, de débats et de partages : la bibliothèque agora.
 6. Soutenir l’expérience, l'implication, l'autonomisation et l'innovation des membres de la communauté par la création de quatre espaces dédiés : inspiration space, learning space, meeting space et performative space — qui peuvent s’entremêler les uns aux autres.
 7. Créer des espaces qui facilitent la création de connaissances dans un environnement exempt de censure et de jugement où l’on se sent libre de participer et de contribuer.
 8. Assurer à la fois la présence d’espaces de travail silencieux, d’espace de rencontres formels (débats) et informels (rencontres fortuites) « bruyants » et d’espaces vitrines, d’imagination ou d’exposition.
 
-## Apprentissage et connaissances
+    **Apprentissage et connaissances**
+
 9. Développer chez les membres les compétences de lecture, compétences informationnelles (information literacy), compétences informatiques (IT literacy) et compétences sociales (communication, résolution de conflit), la pensée critique et la faculté à résoudre des problèmes.
 10. Soutenir l’apprentissage formel et informel du membre en cherchant à comprendre son niveau de connaissance et le but qu’il souhaite atteindre, tout en proposant la manière la plus adéquate d’y parvenir: autodidaxie, jeu, étude, expérience physique ou virtuelle, débats ou partages.
 11. Établir et favoriser la création de liens et de connexions entre les membres et l’information (accès), entre les membres eux-mêmes (échanges et cocréation), entre la bibliothèque et la communauté (partenariats et collaboration) et entre les informations (métadonnées, API).
@@ -38,7 +41,8 @@ Pour ce qui est de la synthèse des chapitres 5 et 6, nous la présentons sous
 13. Soutenir la création de ressources et de contenus par les communautés en offrant la possibilité de les diffuser sous licences ouvertes.
 14. Motiver l’apprentissage des membres en leur permettant d’exprimer les passions et les expertises qu’ils possèdent, en les invitant à participer et à s’impliquer dans la vie et le processus de création de leur bibliothèque.
 
-## Mise à disposition
+    **Mise à disposition**
+
 15. Mettre à disposition des membres de la communauté les outils et l’infrastructure de la bibliothèque, mais également l’expertise des bibliothécaires pour aider, accompagner et débloquer les compétences et les connaissances qu’ils demandent d’acquérir.
 16. Donner accès à tout ce que la bibliothèque possède et produit (publications, données, collections, métadonnées, enquêtes, etc.) de manière ouverte en permettant la participation et l’implication de la part des membres.
 17.Passer d’une logique de prêt des ressources à une logique de partage des ressources.

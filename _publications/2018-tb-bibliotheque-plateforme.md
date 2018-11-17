@@ -31,15 +31,15 @@ toc:
     - heading: Bibliothèque troisième lieu
       page: 15
       pdfPage: 23
-      slug: null
+      slug: 05-01-bibliotheque-troisieme-lieu
     - heading: Four spaces model
       page: 17
       pdfPage: 25
-      slug: null
+      slug: 05-02-four-spaces-model
     - heading: Library as platform
       page: 22
       pdfPage: 30
-      slug: null
+      slug: 05-03-library-as-platform
   visions:
     chapter:
       heading: Visions et perspectives existantes
@@ -50,15 +50,15 @@ toc:
     - heading: Netherlands Institute for Public Libraries
       page: 26
       pdfPage: 34
-      slug: null
+      slug: 06-01-netherlands-institute-for-public-libraries
     - heading: Danish Agency for Library and Media
       page: 29
       pdfPage: 37
-      slug: null
+      slug: 06-02-danish-agency-for-library-and-media
     - heading: New librarianship de David Lankes
       page: 33
       pdfPage: 41
-      slug: null
+      slug: 06-03-new-librarianship-de-david-lankes
   synthesis:
     chapter:
       heading: Synthèse et recommandations générales
@@ -70,7 +70,7 @@ toc:
       heading: Modèle – Bibliothèque plateforme
       page: 43
       pdfPage: 51
-      slug: null
+      slug: 08-modele-bibliotheque-plateforme
   example:
     chapter:
       heading: Exemple – Le makerspace
@@ -104,6 +104,7 @@ toc:
     - heading: Bibliographie
       page: 79
       pdfPage: 87
+      slug: 11-bibliographie
     - heading: "Annexe 1 : Illustrations"
       page: 85
       pdfPage: 93

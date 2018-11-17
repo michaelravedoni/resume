@@ -14,7 +14,7 @@ En d'autres termes, la culture est ce qui lie les individus, ce qui les connecte
 
 À partir de là se pose une seconde question. Comment donc crée-t-on la culture ? Pour l'expliquer, je me suis inspiré de la pyramide DIKW (<i>data-information-knowledge-wisdom</i>) <at-reference language="en"  title="The wisdom hierarchy: representations of the DIKW hierarchy" creator="Jennifer Rowley" date="2007" publisher="Journal of Information Science" pages="163-180" volume="33" issue="2" issn="0165-5515" doi="10.1177/0165551506070706" url="http://journals.sagepub.com/doi/10.1177/0165551506070706" itemType="journalArticle"></at-reference> que je me suis permis de revisiter. Je propose la variante DISCC (<i>donnée-information-savoir-connaissance-culture</i>), construite à travers le prisme de la vision de David Lankes, qui me semble bien meilleure pour expliquer comment naît la culture au sein de notre société. L'explication se fait au travers d'un cheminement: de la données à la culture en passant par l'information, le savoir et la connaissance.
 
-<at-figure src="/images/donnee-culture.png" caption="De l'information à la culture : donnée-information-savoir-connaissance-culture (DISCC).">Infographie créée par Michael Ravedoni sou licence CC0.</at-figure>
+<at-figure src="/images/A-donnee-culture.png" caption="De l'information à la culture : donnée-information-savoir-connaissance-culture (DISCC).">Infographie créée par Michael Ravedoni sou licence CC0.</at-figure>
 
 - Une **donnée** est une description élémentaire d'une réalité véhiculée à travers le langage. Elle est, par exemple une observation ou une mesure. [Exemple: 28° Celsius];
 
@@ -26,8 +26,10 @@ En d'autres termes, la culture est ce qui lie les individus, ce qui les connecte
 
 - La **culture** est alors l'ensemble des traits distinctifs communs que partagent un nombre donné d'individus à travers une communauté [Exemple: Les adeptes de la théorie selon laquelle le soleil et les courants marins ont une influence sur la température de l'air - les météorologues - les amateurs d'histoire géographique suisse].
 
+<at-figure src="/images/A-donnee-culture-exemples.png" caption="De l'information à la culture par deux exemples.">Infographie créée par Michael Ravedoni sou licence CC-BY.</at-figure>
+
 Nous sommes maintenant capables d'expliquer comment la culture — en passant de la donnée, à l'information, puis au savoir et à la connaissance — se forme au sein d'un groupe social. Tout comme la connaissance est l'ensemble des savoirs digérés et interprétés par un individu à la lumière de sa propre réalité, la culture est l'ensemble des connaissances que partage un groupe d'individus à la lumière de leur réalité commune. Dans la plupart des cas, lorsqu'une réalité commune est partagée par plusieurs individus, ils forment une communauté. Ainsi, les notions de culture et de communauté sont très proches.
 
 Je propose de prendre la définition de la communauté suivante (Lankes, 2017 ; 2012, p. 75):
-<at-block type="definition" heading="Communauté">Une communauté est un groupe d'individus consciemment liés par au moins une variable</at-block>
+<at-block type="definition" heading="Communauté">Une communauté est un groupe d'individus consciemment liés par au moins une variable.</at-block>
 Les variables sont par exemple, la localisation géographique, la langue, les coutumes, un mode de vie, une vision du monde, des intérêts communs ou des valeurs communes. En faisant le parallèle avec la définition de la culture donnée plus haut, nous pouvons alors affirmer qu'une communauté partage une culture commune.
