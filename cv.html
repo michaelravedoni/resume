@@ -318,7 +318,7 @@ resume_theme:                   developer
 						{% for recognition in site.data[site.lang].recognitions %}
 						<div class="item">
 							<h3 class="title" itemprop="award"><i class="fas fa-{{recognition.icon}}"></i> {{ recognition.award }}</h3>
-							<h4 class="university">{{ recognition.organization }} <span class="year">({{ recognition.year }})</span></h4>
+							<h4 class="university">{{ recognition.organization }} — {{ recognition.summary }} <span class="year">({{ recognition.year }})</span></h4>
 						</div><!--//item-->
 						{% endfor %}
 					</div><!--//content-->
