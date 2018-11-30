@@ -2,7 +2,7 @@
 title: Un résumé des définitions
 layout: articles
 date: '2018-10-30 09:00:00'
-published: true
+published: false
 unsplash: s9CC2SKySJM
 bibliography: '<at-reference type="bibliography" title="La bibliothèque plateforme
   : espace dédié à la création, au partage et à la diffusion de culture – exemple
