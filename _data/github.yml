@@ -8,7 +8,7 @@
   description: Web components and layout for blog and academic articles
   since: 2018
 
-- name: at-article-redactor-plugins
-  url: https://github.com/michaelravedoni/at-article-redactor-plugins
-  description: Imperavi Redactor plugins for writing clean and flat articles with at-article
+- name: jekyll-book-framework
+  url: https://github.com/michaelravedoni/jekyll-book-framework
+  description: A Jekyll framework for publishing book in multiple format (HTML, PDF, epub)
   since: 2018
