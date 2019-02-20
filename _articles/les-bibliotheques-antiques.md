@@ -3,7 +3,7 @@ title: Les bibliothèques antiques
 layout: articles
 unsplash: 7ybKmhDTcz0
 date: '2019-01-02 10:00:00'
-published: true
+published: false
 ---
 
 L'Antiquité présente une facette très intéressante des bibliothèque que nous avons du mal à concevor aujourd'hui. Les hommes de lettre et de savoir (généralement des prêtres ou des scribes) de cette époque entreposaient leur savoir écrit sur des étagères dans des niches creusées dans les murs (Coulon, 2004). Comme les supports d’écriture à cette époque étaient rares et chers, les documents (tablettes, parchemins, rouleaux et manuscrits) tenaient souvent dans une seule armoire ou un seul coffre. Nous l’avons évoqué plus haut, en antiquité la bibliothèque était une armoire, puis un lieu où l’on entreposait les connaissances.

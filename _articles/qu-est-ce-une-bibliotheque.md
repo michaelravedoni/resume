@@ -3,6 +3,7 @@ title: Qu'est-ce qu'une bibliothèque&nbsp;?
 layout: articles
 date: '2018-09-15 09:00:00'
 unsplash: U-mltYLzFOI
+published: true
 bibliography: '<at-reference type="bibliography" title="La bibliothèque plateforme
   : espace dédié à la création, au partage et à la diffusion de culture – exemple
   par la création d’un makerspace" creator="Michael Ravedoni" date="2018">Cet article
