@@ -1,4 +1,13 @@
 # Jobs
+# MV
+
+- company: Médiathèque Valais - Sion
+  position: Spécialiste en information documentaire
+  duration: mars 2019 &mdash; maintenant
+  summary: <ul><li>Responsable de l'autoformation à la MV-Sion</li><li>Mise en place et coordination de projets transversaux au sein de la eMV</li><li>Accueil et service au public</li><li>Développement web</li></ul>
+  icon: university
+  url:
+
 # CHUV
 
 - company: CHUV | Centre hospitalier universitaire vaudois
@@ -6,7 +15,7 @@
   duration: juin 2017 &mdash; août 2017
   summary: <ul><li>Mise à jour de l'architecture de l'information de la section news du site web de l'IUMSP sur Drupal [<a href="https://www.iumsp.ch/actualites-agenda" target="_blank">voir</a>]</li><li>Internationalisation (i18n) [<a href="https://github.com/openillink-project/openillink/commit/f21e86df3f99249c5449b714a3d3c82cd02d8e5d">voir</a>] et conception d'un nouvel habillage visuel avec Bulma [<a href="https://github.com/michaelravedoni/openillink/tree/master-flat-design" target="_blank">voir</a>] de l'outil OpenSource <i><a href="https://github.com/openillink-project/openillink">OpenILLink</a></i> utilisé par la Bibliothèque universitaire de médecine (<a href="https://bium.ch" target="_blank">BiUM</a>).</li></ul>
   icon: code
-  url: 
+  url:
 
 # CERN
 - company: CERN
@@ -20,9 +29,9 @@
 - company: Banque cantonale du Valais (BCVs | WKB)
   position: Stagiaire d'été
   duration: juin 2016 &mdash; juillet 2016
-  summary: 
+  summary:
   icon: university
-  url: 
+  url:
 
 # Archives de l'État du Valais
 - company: Archives de l'État du Valais

@@ -1,4 +1,13 @@
 # Jobs
+# MV
+
+- company: Médiathek Wallis - Sion
+  position: Spécialiste en information documentaire
+  duration: März 2019 &mdash; jetzt
+  summary: <ul><li>Verantwortlich für das Selbststudium bei MV-Sion</li><li>Implementierung und Koordination von Querschnittsprojekten innerhalb von eMV</li><li>Dienste der Öffentlichkeit</li><li>Web-Entwicklung</li></ul>
+  icon: university
+  url:
+
 # CHUV
 
 - company: CHUV | Centre hospitalier universitaire vaudois
@@ -6,7 +15,7 @@
   duration: juni 2017 &mdash; august 2017
   summary: <ul><li>Update der Informationsarchitektur des News-Sektion der IUMSP-Website auf Drupal [<a href="https://www.iumsp.ch/actualites-agenda" target="_blank">sehen</a>]</li><li>Internationalisierung (i18n) [<a href="https://github.com/openillink-project/openillink/commit/f21e86df3f99249c5449b714a3d3c82cd02d8e5d">sehen</a>] und Design einer neuen Sichtverkleidung mit Bulma [<a href="https://github.com/michaelravedoni/openillink/tree/master-flat-design" target="_blank">sehen</a>] des OpenSource tool <i><a href="https://github.com/openillink-project/openillink">OpenILLink</a></i> benützt von der Universitätsbibliothek für Medizin (<a href="https://bium.ch" target="_blank">BiUM</a>).</li></ul>
   icon: code
-  url: 
+  url:
 
 # CERN
 - company: CERN
@@ -20,9 +29,9 @@
 - company: Walliser Kantonalbank (BCVs | WKB)
   position: Sommerpraktikant
   duration: juni 2016 &mdash; july 2016
-  summary: 
+  summary:
   icon: university
-  url: 
+  url:
 
 # Archives de l'État du Valais
 - company: Staatsarchiv Wallis
