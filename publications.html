@@ -39,7 +39,7 @@ permalink: /publications/
 					</div>
 					<div class="mr-publication-details uk-text-meta">
 						<span class="mr-publication-date uk-float-right">{{pub.date | date: "%Y"}}</span>
-						<span class="mr-publication-url"><a href="{{pub.pdf}}" target="_blank"><i class="far fa-file-pdf"></i></a></span>
+						<span class="mr-publication-url">{% if pub.pdf %}<a href="{{pub.pdf}}" target="_blank"><i class="far fa-file-pdf"></i></a>{% endif %}</span>
 						<span>{{pub.publisher}}.</span>
 						{% for creator in pub.creators %}
 						<span class="mr-publication-creator">{{creator.firstName}} {{creator.lastName}}{% if creator.creatorType %} ({{creator.creatorType}}){% endif %}{% if forloop.last %}{% else %}, {% endif %}</span>
